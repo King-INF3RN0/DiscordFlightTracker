@@ -1,0 +1,26 @@
+{
+    "general": {
+      "timezone": "US/Eastern",
+      "daily_post_time": "17:45",
+      "watch_interval_minutes": 10
+    },
+    "flight_tracking": {
+      "time_window": {
+        "start": "18:00",
+        "end": "00:59"
+      },
+      "airlines": ["5X"],
+      "airport": "KTPA"
+    },
+    "discord": {
+      "main_channel_id": "YOUR_MAIN_CHANNEL_ID",
+      "debug_channel_id": "YOUR_DEBUG_CHANNEL_ID",
+      "mention_user_id": "YOUR_USER_ID",
+      "role_ids": {
+        "Weekday": "YOUR_WEEKDAY_ROLE_ID",
+        "Saturday": "YOUR_SATURDAY_ROLE_ID",
+        "Sunday": "YOUR_SUNDAY_ROLE_ID"
+      }
+    }
+  }
+  
