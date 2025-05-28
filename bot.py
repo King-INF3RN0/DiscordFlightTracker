@@ -6,9 +6,13 @@ from dotenv import load_dotenv
 from config_loader import load_config, ConfigError
 from flight_scraper_fr24 import FlightScraperFR24
 
-# Load env and config
-load_dotenv()
+# Force reload environment variables from .env
+load_dotenv(override=True)
 TOKEN = os.getenv("DISCORD_TOKEN")
+
+if not TOKEN:
+    print("[ERROR] DISCORD_TOKEN not found in environment. Please check your .env file.")
+    exit(1)
 
 try:
     config = load_config()
