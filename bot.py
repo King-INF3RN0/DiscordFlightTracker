@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from config_loader import load_config, ConfigError
 from flight_scraper_fr24 import FlightScraperFR24
 
-# Force reload environment variables from .env
+# Load environment variables
 load_dotenv(override=True)
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -20,22 +20,23 @@ except ConfigError as e:
     print(f"[CONFIG ERROR] {e}")
     exit(1)
 
-# Intents not needed for slash commands
+# No privileged intents needed for slash commands
 intents = discord.Intents.none()
-
-# Setup bot using app commands (slash)
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
     print(f"[BOT] Logged in as {bot.user}")
     try:
-        synced = await bot.tree.sync()
-        print(f"[BOT] Synced {len(synced)} slash commands.")
+        synced = await bot.tree.sync()  # Global sync only
+        print(f"[BOT] Synced {len(synced)} global slash commands")
     except Exception as e:
         print(f"[SYNC ERROR] {e}")
 
-@bot.tree.command(name="check", description="Manually check for upcoming tracked flights")
+@bot.tree.command(
+    name="check",
+    description="Manually check for upcoming tracked flights"
+)
 async def check_flights(interaction: discord.Interaction):
     scraper = FlightScraperFR24(config)
     flights = scraper.fetch_flights()
@@ -54,5 +55,5 @@ async def check_flights(interaction: discord.Interaction):
 
     await interaction.response.send_message(response)
 
-# Start bot
+# Run the bot
 bot.run(TOKEN)
