@@ -45,13 +45,16 @@ async def check_flights(interaction: discord.Interaction):
         await interaction.response.send_message("No flights found in the configured time window.")
         return
 
-    response = "**Tracked Flights:**\n"
+    response = "**Tracked Flights**\n\n"
+
     for flight in flights:
+        fr24_link = f"https://www.flightradar24.com/{flight['flight_number']}"
         response += (
-            f"- {flight['flight_number']} ({flight['aircraft_type']}) "
-            f"{flight['direction']} from {flight['origin']} to {flight['destination']} | "
-            f"ETA: {flight['estimated_time']}\n"
-        )
+        f"Flight: {flight['flight_number']} ({flight['aircraft_type']})\n"
+        f"From {flight['origin']} to {flight['destination']} | ETA: {flight['estimated_time']}\n"
+        f"Link: {fr24_link}\n\n"
+    )
+
 
     await interaction.response.send_message(response)
 
