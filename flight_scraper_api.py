@@ -95,8 +95,8 @@ class FlightScraperAPI:
             flight_number = flight_info.get("iata") or ""
             airline_code = airline_info.get("iata") or ""
             icao_code = airline_info.get("icao") or ""
-            dep_icao = departure_info.get("icao") or departure_info.get("iata") or ""
-            arr_icao = arrival_info.get("icao") or arrival_info.get("iata") or ""
+            dep_iata = departure_info.get("iata") or ""
+            arr_iata = arrival_info.get("iata") or ""
             scheduled_arrival = arrival_info.get("scheduled") or ""
             estimated_arrival = arrival_info.get("estimated") or ""
             scheduled_departure = departure_info.get("scheduled") or ""
@@ -109,18 +109,18 @@ class FlightScraperAPI:
             origin = ""
             destination = ""
 
-            if arr_icao.upper() == self.airport:
+            if arr_iata.upper() == self.airport:
                 direction = "arrival"
                 scheduled_time = scheduled_arrival
                 estimated_time = estimated_arrival
-                origin = dep_icao
-                destination = arr_icao
-            elif dep_icao.upper() == self.airport:
+                origin = dep_iata
+                destination = arr_iata
+            elif dep_iata.upper() == self.airport:
                 direction = "departure"
                 scheduled_time = scheduled_departure
                 estimated_time = estimated_departure
-                origin = arr_icao
-                destination = dep_icao
+                origin = arr_iata
+                destination = dep_iata
             else:
                 continue
 
