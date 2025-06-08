@@ -1,0 +1,5120 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 100,
+    "total": 552
+  },
+  "data": [
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "7",
+        "gate": "70B",
+        "delay": null,
+        "scheduled": "2025-06-07T23:59:00+00:00",
+        "estimated": "2025-06-07T23:59:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A10",
+        "baggage": "2",
+        "scheduled": "2025-06-08T07:56:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "1296",
+        "iata": "UA1296",
+        "icao": "UAL1296",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Harry Reid International Airport",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAS",
+        "icao": "KLAS",
+        "terminal": "3",
+        "gate": "D17",
+        "delay": null,
+        "scheduled": "2025-06-07T22:31:00+00:00",
+        "estimated": "2025-06-07T22:31:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E71",
+        "baggage": "10",
+        "scheduled": "2025-06-08T06:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "1258",
+        "iata": "F91258",
+        "icao": "FFT1258",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Harry Reid International Airport",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAS",
+        "icao": "KLAS",
+        "terminal": "3",
+        "gate": "D17",
+        "delay": null,
+        "scheduled": "2025-06-07T22:31:00+00:00",
+        "estimated": "2025-06-07T22:31:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E71",
+        "baggage": "10",
+        "scheduled": "2025-06-08T06:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Volaris",
+        "iata": "Y4",
+        "icao": "VOI"
+      },
+      "flight": {
+        "number": "2247",
+        "iata": "Y42247",
+        "icao": "VOI2247",
+        "codeshared": {
+          "airline_name": "frontier airlines",
+          "airline_iata": "f9",
+          "airline_icao": "fft",
+          "flight_number": "1258",
+          "flight_iata": "f91258",
+          "flight_icao": "fft1258"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A41",
+        "delay": null,
+        "scheduled": "2025-06-07T23:40:00+00:00",
+        "estimated": "2025-06-07T23:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E66",
+        "baggage": "7",
+        "scheduled": "2025-06-08T05:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2077",
+        "iata": "DL2077",
+        "icao": "DAL2077",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B46",
+        "delay": null,
+        "scheduled": "2025-06-07T23:59:00+00:00",
+        "estimated": "2025-06-07T23:59:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "A10",
+        "baggage": "2",
+        "scheduled": "2025-06-08T05:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "2334",
+        "iata": "UA2334",
+        "icao": "UAL2334",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A75",
+        "delay": null,
+        "scheduled": "2025-06-07T23:58:00+00:00",
+        "estimated": "2025-06-07T23:58:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": null,
+        "gate": "E74",
+        "baggage": "10",
+        "scheduled": "2025-06-08T05:31:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "1114",
+        "iata": "F91114",
+        "icao": "FFT1114",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "C15",
+        "delay": 20,
+        "scheduled": "2025-06-07T18:35:00+00:00",
+        "estimated": "2025-06-07T18:35:00+00:00",
+        "actual": "2025-06-07T18:54:00+00:00",
+        "estimated_runway": "2025-06-07T18:54:00+00:00",
+        "actual_runway": "2025-06-07T18:54:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F87",
+        "baggage": "BLU3",
+        "scheduled": "2025-06-07T20:17:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T20:05:00+00:00",
+        "actual": "2025-06-07T20:07:00+00:00",
+        "estimated_runway": "2025-06-07T20:07:00+00:00",
+        "actual_runway": "2025-06-07T20:07:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "1032",
+        "iata": "AA1032",
+        "icao": "AAL1032",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N157UW",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A0E607"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Midway",
+        "timezone": "America/Chicago",
+        "iata": "MDW",
+        "icao": "KMDW",
+        "terminal": null,
+        "gate": "B14",
+        "delay": 5,
+        "scheduled": "2025-06-07T05:00:00+00:00",
+        "estimated": "2025-06-07T05:00:00+00:00",
+        "actual": "2025-06-07T05:05:00+00:00",
+        "estimated_runway": "2025-06-07T05:05:00+00:00",
+        "actual_runway": "2025-06-07T05:05:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C30",
+        "baggage": "15",
+        "scheduled": "2025-06-07T08:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:08:00+00:00",
+        "actual": "2025-06-07T08:07:00+00:00",
+        "estimated_runway": "2025-06-07T08:07:00+00:00",
+        "actual_runway": "2025-06-07T08:07:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1698",
+        "iata": "WN1698",
+        "icao": "SWA1698",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8541W",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABB8C4"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Memphis International",
+        "timezone": "America/Chicago",
+        "iata": "MEM",
+        "icao": "KMEM",
+        "terminal": null,
+        "gate": null,
+        "delay": 3,
+        "scheduled": "2025-06-07T03:30:00+00:00",
+        "estimated": "2025-06-07T03:30:00+00:00",
+        "actual": "2025-06-07T03:33:00+00:00",
+        "estimated_runway": "2025-06-07T03:33:00+00:00",
+        "actual_runway": "2025-06-07T03:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T05:53:00+00:00",
+        "delay": 3,
+        "estimated": "2025-06-07T05:55:00+00:00",
+        "actual": "2025-06-07T05:56:00+00:00",
+        "estimated_runway": "2025-06-07T05:56:00+00:00",
+        "actual_runway": "2025-06-07T05:56:00+00:00"
+      },
+      "airline": {
+        "name": "FedEx",
+        "iata": "FX",
+        "icao": "FDX"
+      },
+      "flight": {
+        "number": "1410",
+        "iata": "FX1410",
+        "icao": "FDX1410",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N129FE",
+        "iata": "B763",
+        "icao": "B763",
+        "icao24": "A075A3"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Louisville International (Standiford Field)",
+        "timezone": "America/Kentucky/Louisville",
+        "iata": "SDF",
+        "icao": "KSDF",
+        "terminal": null,
+        "gate": null,
+        "delay": 26,
+        "scheduled": "2025-06-07T04:52:00+00:00",
+        "estimated": "2025-06-07T04:52:00+00:00",
+        "actual": "2025-06-07T05:17:00+00:00",
+        "estimated_runway": "2025-06-07T05:17:00+00:00",
+        "actual_runway": "2025-06-07T05:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "B",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T06:39:00+00:00",
+        "delay": 7,
+        "estimated": "2025-06-07T06:46:00+00:00",
+        "actual": "2025-06-07T06:46:00+00:00",
+        "estimated_runway": "2025-06-07T06:46:00+00:00",
+        "actual_runway": "2025-06-07T06:46:00+00:00"
+      },
+      "airline": {
+        "name": "UPS Airlines",
+        "iata": "5X",
+        "icao": "UPS"
+      },
+      "flight": {
+        "number": "1338",
+        "iata": "5X1338",
+        "icao": "UPS1338",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N318UP",
+        "iata": "B763",
+        "icao": "B763",
+        "icao24": "A36659"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": "2",
+        "gate": "D47",
+        "delay": 26,
+        "scheduled": "2025-06-07T10:35:00+00:00",
+        "estimated": "2025-06-07T10:35:00+00:00",
+        "actual": "2025-06-07T11:01:00+00:00",
+        "estimated_runway": "2025-06-07T11:01:00+00:00",
+        "actual_runway": "2025-06-07T11:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F90",
+        "baggage": "7",
+        "scheduled": "2025-06-07T14:20:00+00:00",
+        "delay": 21,
+        "estimated": "2025-06-07T14:37:00+00:00",
+        "actual": "2025-06-07T14:41:00+00:00",
+        "estimated_runway": "2025-06-07T14:41:00+00:00",
+        "actual_runway": "2025-06-07T14:41:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "237",
+        "iata": "DL237",
+        "icao": "DAL237",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N807NW",
+        "iata": "A333",
+        "icao": "A333",
+        "icao24": "AAFD1F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pittsburgh International",
+        "timezone": "America/New_York",
+        "iata": "PIT",
+        "icao": "KPIT",
+        "terminal": null,
+        "gate": "A9",
+        "delay": 12,
+        "scheduled": "2025-06-07T05:20:00+00:00",
+        "estimated": "2025-06-07T05:20:00+00:00",
+        "actual": "2025-06-07T05:31:00+00:00",
+        "estimated_runway": "2025-06-07T05:31:00+00:00",
+        "actual_runway": "2025-06-07T05:31:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "B",
+        "gate": "C33",
+        "baggage": "14",
+        "scheduled": "2025-06-07T07:40:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T07:26:00+00:00",
+        "actual": "2025-06-07T07:26:00+00:00",
+        "estimated_runway": "2025-06-07T07:26:00+00:00",
+        "actual_runway": "2025-06-07T07:26:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4627",
+        "iata": "WN4627",
+        "icao": "SWA4627",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N473WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A5CE40"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Detroit Metropolitan Wayne County",
+        "timezone": "America/Detroit",
+        "iata": "DTW",
+        "icao": "KDTW",
+        "terminal": "M",
+        "gate": "A20",
+        "delay": 8,
+        "scheduled": "2025-06-07T07:05:00+00:00",
+        "estimated": "2025-06-07T07:05:00+00:00",
+        "actual": "2025-06-07T07:12:00+00:00",
+        "estimated_runway": "2025-06-07T07:12:00+00:00",
+        "actual_runway": "2025-06-07T07:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E62",
+        "baggage": "7",
+        "scheduled": "2025-06-07T09:40:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:16:00+00:00",
+        "actual": "2025-06-07T09:15:00+00:00",
+        "estimated_runway": "2025-06-07T09:15:00+00:00",
+        "actual_runway": "2025-06-07T09:15:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2852",
+        "iata": "DL2852",
+        "icao": "DAL2852",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N837DN",
+        "iata": "B739",
+        "icao": "B739",
+        "icao24": "AB72B3"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D6",
+        "delay": 11,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:11:00+00:00",
+        "estimated_runway": "2025-06-07T07:11:00+00:00",
+        "actual_runway": "2025-06-07T07:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "F79",
+        "baggage": "4",
+        "scheduled": "2025-06-07T08:04:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T07:47:00+00:00",
+        "actual": "2025-06-07T07:51:00+00:00",
+        "estimated_runway": "2025-06-07T07:51:00+00:00",
+        "actual_runway": "2025-06-07T07:51:00+00:00"
+      },
+      "airline": {
+        "name": "Gol",
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "flight": {
+        "number": "6218",
+        "iata": "G36218",
+        "icao": "GLO6218",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1790",
+          "flight_iata": "aa1790",
+          "flight_icao": "aal1790"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D6",
+        "delay": 11,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:11:00+00:00",
+        "estimated_runway": "2025-06-07T07:11:00+00:00",
+        "actual_runway": "2025-06-07T07:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "F79",
+        "baggage": "4",
+        "scheduled": "2025-06-07T08:04:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T07:47:00+00:00",
+        "actual": "2025-06-07T07:51:00+00:00",
+        "estimated_runway": "2025-06-07T07:51:00+00:00",
+        "actual_runway": "2025-06-07T07:51:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "1790",
+        "iata": "AA1790",
+        "icao": "AAL1790",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N840AW",
+        "iata": "A319",
+        "icao": "A319",
+        "icao24": "AB7FEE"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Opa Locka",
+        "timezone": "America/New_York",
+        "iata": "OPF",
+        "icao": "KOPF",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2025-06-07T00:30:00+00:00",
+        "estimated": "2025-06-07T00:30:00+00:00",
+        "actual": "2025-06-06T21:14:00+00:00",
+        "estimated_runway": "2025-06-06T21:14:00+00:00",
+        "actual_runway": "2025-06-06T21:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "C",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T01:46:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T01:11:00+00:00",
+        "actual": "2025-06-06T22:03:00+00:00",
+        "estimated_runway": "2025-06-06T22:03:00+00:00",
+        "actual_runway": "2025-06-06T22:03:00+00:00"
+      },
+      "airline": {
+        "name": "LabCorp",
+        "iata": "SKQ",
+        "icao": "SKQ"
+      },
+      "flight": {
+        "number": "91",
+        "iata": "SKQ91",
+        "icao": "SKQ91",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Municipal",
+        "timezone": "America/New_York",
+        "iata": "LAL",
+        "icao": "KLAL",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2025-06-07T06:45:00+00:00",
+        "estimated": "2025-06-07T06:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "B",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T07:04:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "B5",
+        "delay": 14,
+        "scheduled": "2025-06-07T06:00:00+00:00",
+        "estimated": "2025-06-07T06:00:00+00:00",
+        "actual": "2025-06-07T06:14:00+00:00",
+        "estimated_runway": "2025-06-07T06:14:00+00:00",
+        "actual_runway": "2025-06-07T06:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A8",
+        "baggage": "2",
+        "scheduled": "2025-06-07T09:46:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:19:00+00:00",
+        "actual": "2025-06-07T09:20:00+00:00",
+        "estimated_runway": "2025-06-07T09:20:00+00:00",
+        "actual_runway": "2025-06-07T09:20:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "605",
+        "iata": "UA605",
+        "icao": "UAL605",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N17333",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "A1272F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Nashville International",
+        "timezone": "America/Chicago",
+        "iata": "BNA",
+        "icao": "KBNA",
+        "terminal": null,
+        "gate": "D7",
+        "delay": 13,
+        "scheduled": "2025-06-07T05:40:00+00:00",
+        "estimated": "2025-06-07T05:40:00+00:00",
+        "actual": "2025-06-07T05:52:00+00:00",
+        "estimated_runway": "2025-06-07T05:52:00+00:00",
+        "actual_runway": "2025-06-07T05:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C43",
+        "baggage": "14",
+        "scheduled": "2025-06-07T08:25:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:11:00+00:00",
+        "actual": "2025-06-07T08:11:00+00:00",
+        "estimated_runway": "2025-06-07T08:11:00+00:00",
+        "actual_runway": "2025-06-07T08:11:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "3374",
+        "iata": "WN3374",
+        "icao": "SWA3374",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8921Q",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC4F4C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lambert-St. Louis International",
+        "timezone": "America/Chicago",
+        "iata": "STL",
+        "icao": "KSTL",
+        "terminal": "2",
+        "gate": "E8",
+        "delay": 7,
+        "scheduled": "2025-06-07T05:05:00+00:00",
+        "estimated": "2025-06-07T05:05:00+00:00",
+        "actual": "2025-06-07T05:11:00+00:00",
+        "estimated_runway": "2025-06-07T05:11:00+00:00",
+        "actual_runway": "2025-06-07T05:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C36",
+        "baggage": "15",
+        "scheduled": "2025-06-07T08:20:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:06:00+00:00",
+        "actual": "2025-06-07T08:05:00+00:00",
+        "estimated_runway": "2025-06-07T08:05:00+00:00",
+        "actual_runway": "2025-06-07T08:05:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4129",
+        "iata": "WN4129",
+        "icao": "SWA4129",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8781Q",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC1698"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A19",
+        "delay": 3,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:03:00+00:00",
+        "estimated_runway": "2025-06-07T07:03:00+00:00",
+        "actual_runway": "2025-06-07T07:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E66",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:15:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:48:00+00:00",
+        "actual": "2025-06-07T09:49:00+00:00",
+        "estimated_runway": "2025-06-07T09:49:00+00:00",
+        "actual_runway": "2025-06-07T09:49:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2706",
+        "iata": "DL2706",
+        "icao": "DAL2706",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N707TW",
+        "iata": "B752",
+        "icao": "B752",
+        "icao24": "A9704D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "A",
+        "gate": "A19",
+        "delay": 3,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:03:00+00:00",
+        "estimated_runway": "2025-06-07T07:03:00+00:00",
+        "actual_runway": "2025-06-07T07:03:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E66",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:15:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:48:00+00:00",
+        "actual": "2025-06-07T09:49:00+00:00",
+        "estimated_runway": "2025-06-07T09:49:00+00:00",
+        "actual_runway": "2025-06-07T09:49:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "2948",
+        "iata": "VS2948",
+        "icao": "VIR2948",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2706",
+          "flight_iata": "dl2706",
+          "flight_icao": "dal2706"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Port Columbus International",
+        "timezone": "America/New_York",
+        "iata": "CMH",
+        "icao": "KCMH",
+        "terminal": null,
+        "gate": "A2",
+        "delay": 10,
+        "scheduled": "2025-06-07T06:00:00+00:00",
+        "estimated": "2025-06-07T06:00:00+00:00",
+        "actual": "2025-06-07T06:09:00+00:00",
+        "estimated_runway": "2025-06-07T06:09:00+00:00",
+        "actual_runway": "2025-06-07T06:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C31",
+        "baggage": "14",
+        "scheduled": "2025-06-07T08:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T07:56:00+00:00",
+        "actual": "2025-06-07T07:56:00+00:00",
+        "estimated_runway": "2025-06-07T07:56:00+00:00",
+        "actual_runway": "2025-06-07T07:56:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "3147",
+        "iata": "WN3147",
+        "icao": "SWA3147",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8923Q",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC4F92"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "LaGuardia",
+        "timezone": "America/New_York",
+        "iata": "LGA",
+        "icao": "KLGA",
+        "terminal": "C",
+        "gate": "64",
+        "delay": 150,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T09:30:00+00:00",
+        "estimated_runway": "2025-06-07T09:30:00+00:00",
+        "actual_runway": "2025-06-07T09:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E67",
+        "baggage": "7",
+        "scheduled": "2025-06-07T09:50:00+00:00",
+        "delay": 123,
+        "estimated": "2025-06-07T11:53:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2531",
+        "iata": "DL2531",
+        "icao": "DAL2531",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N3750D",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "A448BA"
+      },
+      "live": {
+        "updated": "2025-06-07T16:07:29+00:00",
+        "latitude": 28.0391,
+        "longitude": -82.5397,
+        "altitude": 236.22,
+        "direction": 182,
+        "speed_horizontal": 283.356,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "C",
+        "gate": "C28",
+        "delay": 7,
+        "scheduled": "2025-06-07T06:33:00+00:00",
+        "estimated": "2025-06-07T06:33:00+00:00",
+        "actual": "2025-06-07T06:40:00+00:00",
+        "estimated_runway": "2025-06-07T06:40:00+00:00",
+        "actual_runway": "2025-06-07T06:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F84",
+        "baggage": "4",
+        "scheduled": "2025-06-07T09:05:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:48:00+00:00",
+        "actual": "2025-06-07T08:49:00+00:00",
+        "estimated_runway": "2025-06-07T08:49:00+00:00",
+        "actual_runway": "2025-06-07T08:49:00+00:00"
+      },
+      "airline": {
+        "name": "AlphaSky",
+        "iata": "AS",
+        "icao": "JAG"
+      },
+      "flight": {
+        "number": "6704",
+        "iata": "AS6704",
+        "icao": "JAG6704",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "371",
+          "flight_iata": "aa371",
+          "flight_icao": "aal371"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "C",
+        "gate": "C28",
+        "delay": 7,
+        "scheduled": "2025-06-07T06:33:00+00:00",
+        "estimated": "2025-06-07T06:33:00+00:00",
+        "actual": "2025-06-07T06:40:00+00:00",
+        "estimated_runway": "2025-06-07T06:40:00+00:00",
+        "actual_runway": "2025-06-07T06:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F84",
+        "baggage": "4",
+        "scheduled": "2025-06-07T09:05:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:48:00+00:00",
+        "actual": "2025-06-07T08:49:00+00:00",
+        "estimated_runway": "2025-06-07T08:49:00+00:00",
+        "actual_runway": "2025-06-07T08:49:00+00:00"
+      },
+      "airline": {
+        "name": "Aer Lingus",
+        "iata": "EI",
+        "icao": "EIN"
+      },
+      "flight": {
+        "number": "7299",
+        "iata": "EI7299",
+        "icao": "EIN7299",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "371",
+          "flight_iata": "aa371",
+          "flight_icao": "aal371"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "C",
+        "gate": "C28",
+        "delay": 7,
+        "scheduled": "2025-06-07T06:33:00+00:00",
+        "estimated": "2025-06-07T06:33:00+00:00",
+        "actual": "2025-06-07T06:40:00+00:00",
+        "estimated_runway": "2025-06-07T06:40:00+00:00",
+        "actual_runway": "2025-06-07T06:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F84",
+        "baggage": "4",
+        "scheduled": "2025-06-07T09:05:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:48:00+00:00",
+        "actual": "2025-06-07T08:49:00+00:00",
+        "estimated_runway": "2025-06-07T08:49:00+00:00",
+        "actual_runway": "2025-06-07T08:49:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "371",
+        "iata": "AA371",
+        "icao": "AAL371",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N803NN",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "AAEE3B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "William P Hobby",
+        "timezone": "America/Chicago",
+        "iata": "HOU",
+        "icao": "KHOU",
+        "terminal": null,
+        "gate": "47",
+        "delay": 9,
+        "scheduled": "2025-06-07T06:40:00+00:00",
+        "estimated": "2025-06-07T06:40:00+00:00",
+        "actual": "2025-06-07T06:48:00+00:00",
+        "estimated_runway": "2025-06-07T06:48:00+00:00",
+        "actual_runway": "2025-06-07T06:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C40",
+        "baggage": "15",
+        "scheduled": "2025-06-07T09:45:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:28:00+00:00",
+        "actual": "2025-06-07T09:29:00+00:00",
+        "estimated_runway": "2025-06-07T09:29:00+00:00",
+        "actual_runway": "2025-06-07T09:29:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1892",
+        "iata": "WN1892",
+        "icao": "SWA1892",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8839Q",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC2C9C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "C48",
+        "delay": 32,
+        "scheduled": "2025-06-07T05:40:00+00:00",
+        "estimated": "2025-06-07T05:40:00+00:00",
+        "actual": "2025-06-07T06:12:00+00:00",
+        "estimated_runway": "2025-06-07T06:12:00+00:00",
+        "actual_runway": "2025-06-07T06:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C35",
+        "baggage": "15",
+        "scheduled": "2025-06-07T11:05:00+00:00",
+        "delay": 12,
+        "estimated": "2025-06-07T11:17:00+00:00",
+        "actual": "2025-06-07T11:17:00+00:00",
+        "estimated_runway": "2025-06-07T11:17:00+00:00",
+        "actual_runway": "2025-06-07T11:17:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4449",
+        "iata": "WN4449",
+        "icao": "SWA4449",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8705Q",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "ABF96C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Cincinnati/Northern Kentucky",
+        "timezone": "America/New_York",
+        "iata": "CVG",
+        "icao": "KCVG",
+        "terminal": "3",
+        "gate": "A16",
+        "delay": 5,
+        "scheduled": "2025-06-07T08:00:00+00:00",
+        "estimated": "2025-06-07T08:00:00+00:00",
+        "actual": "2025-06-07T08:04:00+00:00",
+        "estimated_runway": "2025-06-07T08:04:00+00:00",
+        "actual_runway": "2025-06-07T08:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E74",
+        "baggage": "10",
+        "scheduled": "2025-06-07T10:12:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:45:00+00:00",
+        "actual": "2025-06-07T09:47:00+00:00",
+        "estimated_runway": "2025-06-07T09:47:00+00:00",
+        "actual_runway": "2025-06-07T09:47:00+00:00"
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "1668",
+        "iata": "F91668",
+        "icao": "FFT1668",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N356FR",
+        "iata": "A20N",
+        "icao": "A20N",
+        "icao24": "A3FBA4"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Raleigh-durham International Airport",
+        "timezone": "America/New_York",
+        "iata": "RDU",
+        "icao": "KRDU",
+        "terminal": "2",
+        "gate": "D9",
+        "delay": 3,
+        "scheduled": "2025-06-07T07:35:00+00:00",
+        "estimated": "2025-06-07T07:35:00+00:00",
+        "actual": "2025-06-07T07:38:00+00:00",
+        "estimated_runway": "2025-06-07T07:38:00+00:00",
+        "actual_runway": "2025-06-07T07:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E68",
+        "baggage": "7",
+        "scheduled": "2025-06-07T09:29:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:01:00+00:00",
+        "actual": "2025-06-07T09:02:00+00:00",
+        "estimated_runway": "2025-06-07T09:02:00+00:00",
+        "actual_runway": "2025-06-07T09:02:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "1279",
+        "iata": "DL1279",
+        "icao": "DAL1279",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N322NB",
+        "iata": "A319",
+        "icao": "A319",
+        "icao24": "A376EC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "LaGuardia",
+        "timezone": "America/New_York",
+        "iata": "LGA",
+        "icao": "KLGA",
+        "terminal": "B",
+        "gate": "40",
+        "delay": 3,
+        "scheduled": "2025-06-07T07:35:00+00:00",
+        "estimated": "2025-06-07T07:35:00+00:00",
+        "actual": "2025-06-07T07:38:00+00:00",
+        "estimated_runway": "2025-06-07T07:38:00+00:00",
+        "actual_runway": "2025-06-07T07:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A14",
+        "baggage": "BLUE",
+        "scheduled": "2025-06-07T10:35:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:59:00+00:00",
+        "actual": "2025-06-07T10:00:00+00:00",
+        "estimated_runway": "2025-06-07T10:00:00+00:00",
+        "actual_runway": "2025-06-07T10:00:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "1247",
+        "iata": "B61247",
+        "icao": "JBU1247",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N559JB",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A721A4"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Gatwick",
+        "timezone": "Europe/London",
+        "iata": "LGW",
+        "icao": "EGKK",
+        "terminal": "S",
+        "gate": "33",
+        "delay": 126,
+        "scheduled": "2025-06-07T12:20:00+00:00",
+        "estimated": "2025-06-07T12:20:00+00:00",
+        "actual": "2025-06-07T14:25:00+00:00",
+        "estimated_runway": "2025-06-07T14:25:00+00:00",
+        "actual_runway": "2025-06-07T14:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F90",
+        "baggage": null,
+        "scheduled": "2025-06-07T16:50:00+00:00",
+        "delay": 100,
+        "estimated": "2025-06-07T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "2167",
+        "iata": "BA2167",
+        "icao": "BAW2167",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "G-VIIO",
+        "iata": "B772",
+        "icao": "B772",
+        "icao24": "4006C1"
+      },
+      "live": {
+        "updated": "2025-06-07T22:50:42+00:00",
+        "latitude": 27.9856,
+        "longitude": -82.5417,
+        "altitude": 0,
+        "direction": 181,
+        "speed_horizontal": 240.76,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Luis Munoz Marin International",
+        "timezone": "America/Puerto_Rico",
+        "iata": "SJU",
+        "icao": "TJSJ",
+        "terminal": "A",
+        "gate": "7",
+        "delay": 6,
+        "scheduled": "2025-06-07T07:10:00+00:00",
+        "estimated": "2025-06-07T07:10:00+00:00",
+        "actual": "2025-06-07T07:16:00+00:00",
+        "estimated_runway": "2025-06-07T07:16:00+00:00",
+        "actual_runway": "2025-06-07T07:16:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A12",
+        "baggage": "3",
+        "scheduled": "2025-06-07T10:13:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:49:00+00:00",
+        "actual": "2025-06-07T09:52:00+00:00",
+        "estimated_runway": "2025-06-07T09:52:00+00:00",
+        "actual_runway": "2025-06-07T09:52:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "1752",
+        "iata": "B61752",
+        "icao": "JBU1752",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N973JT",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "AD8FA4"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Minneapolis - St. Paul International",
+        "timezone": "America/Chicago",
+        "iata": "MSP",
+        "icao": "KMSP",
+        "terminal": "1",
+        "gate": "G12",
+        "delay": 2,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:01:00+00:00",
+        "estimated_runway": "2025-06-07T07:01:00+00:00",
+        "actual_runway": "2025-06-07T07:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E68",
+        "baggage": "7",
+        "scheduled": "2025-06-07T11:08:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:39:00+00:00",
+        "actual": "2025-06-07T10:41:00+00:00",
+        "estimated_runway": "2025-06-07T10:41:00+00:00",
+        "actual_runway": "2025-06-07T10:41:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2301",
+        "iata": "DL2301",
+        "icao": "DAL2301",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N828DN",
+        "iata": "B739",
+        "icao": "B739",
+        "icao24": "AB4EEB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Orlando Sanford International",
+        "timezone": "America/New_York",
+        "iata": "SFB",
+        "icao": "KSFB",
+        "terminal": null,
+        "gate": null,
+        "delay": 5,
+        "scheduled": "2025-06-07T07:45:00+00:00",
+        "estimated": "2025-06-07T07:45:00+00:00",
+        "actual": "2025-06-07T07:50:00+00:00",
+        "estimated_runway": "2025-06-07T07:50:00+00:00",
+        "actual_runway": "2025-06-07T07:50:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T08:24:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:19:00+00:00",
+        "actual": "2025-06-07T08:18:00+00:00",
+        "estimated_runway": "2025-06-07T08:18:00+00:00",
+        "actual_runway": "2025-06-07T08:18:00+00:00"
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 13,
+        "scheduled": "2025-06-07T07:35:00+00:00",
+        "estimated": "2025-06-07T07:35:00+00:00",
+        "actual": "2025-06-07T07:48:00+00:00",
+        "estimated_runway": "2025-06-07T07:48:00+00:00",
+        "actual_runway": "2025-06-07T07:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E65",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:33:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:04:00+00:00",
+        "actual": "2025-06-07T10:05:00+00:00",
+        "estimated_runway": "2025-06-07T10:05:00+00:00",
+        "actual_runway": "2025-06-07T10:05:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2042",
+        "iata": "DL2042",
+        "icao": "DAL2042",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N908DN",
+        "iata": "B739",
+        "icao": "B739",
+        "icao24": "AC8D3C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Kansas City International Airport",
+        "timezone": "America/Chicago",
+        "iata": "MCI",
+        "icao": "KMCI",
+        "terminal": null,
+        "gate": "B60",
+        "delay": 16,
+        "scheduled": "2025-06-07T06:10:00+00:00",
+        "estimated": "2025-06-07T06:10:00+00:00",
+        "actual": "2025-06-07T06:25:00+00:00",
+        "estimated_runway": "2025-06-07T06:25:00+00:00",
+        "actual_runway": "2025-06-07T06:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C31",
+        "baggage": "14",
+        "scheduled": "2025-06-07T09:45:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:35:00+00:00",
+        "actual": "2025-06-07T09:35:00+00:00",
+        "estimated_runway": "2025-06-07T09:35:00+00:00",
+        "actual_runway": "2025-06-07T09:35:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "2362",
+        "iata": "WN2362",
+        "icao": "SWA2362",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8504G",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABAA43"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Love Field",
+        "timezone": "America/Chicago",
+        "iata": "DAL",
+        "icao": "KDAL",
+        "terminal": "1",
+        "gate": "1",
+        "delay": 12,
+        "scheduled": "2025-06-07T07:00:00+00:00",
+        "estimated": "2025-06-07T07:00:00+00:00",
+        "actual": "2025-06-07T07:11:00+00:00",
+        "estimated_runway": "2025-06-07T07:11:00+00:00",
+        "actual_runway": "2025-06-07T07:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C30",
+        "baggage": "14",
+        "scheduled": "2025-06-07T10:20:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:10:00+00:00",
+        "actual": "2025-06-07T10:11:00+00:00",
+        "estimated_runway": "2025-06-07T10:11:00+00:00",
+        "actual_runway": "2025-06-07T10:11:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "436",
+        "iata": "WN436",
+        "icao": "SWA436",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N287WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A2E9FD"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 13,
+        "scheduled": "2025-06-07T07:35:00+00:00",
+        "estimated": "2025-06-07T07:35:00+00:00",
+        "actual": "2025-06-07T07:48:00+00:00",
+        "estimated_runway": "2025-06-07T07:48:00+00:00",
+        "actual_runway": "2025-06-07T07:48:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E65",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:33:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:04:00+00:00",
+        "actual": "2025-06-07T10:05:00+00:00",
+        "estimated_runway": "2025-06-07T10:05:00+00:00",
+        "actual_runway": "2025-06-07T10:05:00+00:00"
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6279",
+        "iata": "LA6279",
+        "icao": "LAN6279",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2042",
+          "flight_iata": "dl2042",
+          "flight_icao": "dal2042"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Baltimore/Washington International Thurgood Marshall",
+        "timezone": "America/New_York",
+        "iata": "BWI",
+        "icao": "KBWI",
+        "terminal": null,
+        "gate": "B8",
+        "delay": 9,
+        "scheduled": "2025-06-07T09:00:00+00:00",
+        "estimated": "2025-06-07T09:00:00+00:00",
+        "actual": "2025-06-07T09:08:00+00:00",
+        "estimated_runway": "2025-06-07T09:08:00+00:00",
+        "actual_runway": "2025-06-07T09:08:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C43",
+        "baggage": "14",
+        "scheduled": "2025-06-07T11:25:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T11:03:00+00:00",
+        "actual": "2025-06-07T11:00:00+00:00",
+        "estimated_runway": "2025-06-07T11:00:00+00:00",
+        "actual_runway": "2025-06-07T11:00:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1972",
+        "iata": "WN1972",
+        "icao": "SWA1972",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8946L",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC5765"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "C16",
+        "delay": 9,
+        "scheduled": "2025-06-07T07:48:00+00:00",
+        "estimated": "2025-06-07T07:48:00+00:00",
+        "actual": "2025-06-07T07:56:00+00:00",
+        "estimated_runway": "2025-06-07T07:56:00+00:00",
+        "actual_runway": "2025-06-07T07:56:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F79",
+        "baggage": "4",
+        "scheduled": "2025-06-07T09:25:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:03:00+00:00",
+        "actual": "2025-06-07T09:06:00+00:00",
+        "estimated_runway": "2025-06-07T09:06:00+00:00",
+        "actual_runway": "2025-06-07T09:06:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2152",
+        "iata": "AA2152",
+        "icao": "AAL2152",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N923US",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "ACCB22"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Louisville International (Standiford Field)",
+        "timezone": "America/Kentucky/Louisville",
+        "iata": "SDF",
+        "icao": "KSDF",
+        "terminal": null,
+        "gate": "B17",
+        "delay": 7,
+        "scheduled": "2025-06-07T06:00:00+00:00",
+        "estimated": "2025-06-07T06:00:00+00:00",
+        "actual": "2025-06-07T06:07:00+00:00",
+        "estimated_runway": "2025-06-07T06:07:00+00:00",
+        "actual_runway": "2025-06-07T06:07:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C40",
+        "baggage": "15",
+        "scheduled": "2025-06-07T08:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T07:41:00+00:00",
+        "actual": "2025-06-07T07:41:00+00:00",
+        "estimated_runway": "2025-06-07T07:41:00+00:00",
+        "actual_runway": "2025-06-07T07:41:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "3396",
+        "iata": "WN3396",
+        "icao": "SWA3396",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N280WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A2CFFC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "LaGuardia",
+        "timezone": "America/New_York",
+        "iata": "LGA",
+        "icao": "KLGA",
+        "terminal": "B",
+        "gate": "26",
+        "delay": 2,
+        "scheduled": "2025-06-07T08:00:00+00:00",
+        "estimated": "2025-06-07T08:00:00+00:00",
+        "actual": "2025-06-07T08:02:00+00:00",
+        "estimated_runway": "2025-06-07T08:02:00+00:00",
+        "actual_runway": "2025-06-07T08:02:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F84",
+        "baggage": "4",
+        "scheduled": "2025-06-07T10:48:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:21:00+00:00",
+        "actual": "2025-06-07T10:22:00+00:00",
+        "estimated_runway": "2025-06-07T10:22:00+00:00",
+        "actual_runway": "2025-06-07T10:22:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "3208",
+        "iata": "AA3208",
+        "icao": "AAL3208",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N931AN",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ACE96D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Nashville International",
+        "timezone": "America/Chicago",
+        "iata": "BNA",
+        "icao": "KBNA",
+        "terminal": null,
+        "gate": "D6",
+        "delay": 1,
+        "scheduled": "2025-06-07T07:15:00+00:00",
+        "estimated": "2025-06-07T07:15:00+00:00",
+        "actual": "2025-06-07T07:16:00+00:00",
+        "estimated_runway": "2025-06-07T07:16:00+00:00",
+        "actual_runway": "2025-06-07T07:16:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C36",
+        "baggage": "15",
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:36:00+00:00",
+        "actual": "2025-06-07T09:37:00+00:00",
+        "estimated_runway": "2025-06-07T09:37:00+00:00",
+        "actual_runway": "2025-06-07T09:37:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "6539",
+        "iata": "WN6539",
+        "icao": "SWA6539",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N479WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A5E48A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "526",
+        "delay": 30,
+        "scheduled": "2025-06-07T08:25:00+00:00",
+        "estimated": "2025-06-07T08:25:00+00:00",
+        "actual": "2025-06-07T08:55:00+00:00",
+        "estimated_runway": "2025-06-07T08:55:00+00:00",
+        "actual_runway": "2025-06-07T08:55:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A14",
+        "baggage": "BLUE",
+        "scheduled": "2025-06-07T11:25:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T11:14:00+00:00",
+        "actual": "2025-06-07T11:16:00+00:00",
+        "estimated_runway": "2025-06-07T11:16:00+00:00",
+        "actual_runway": "2025-06-07T11:16:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "625",
+        "iata": "B6625",
+        "icao": "JBU625",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N583JB",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A781D7"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Indianapolis International",
+        "timezone": "America/Indiana/Indianapolis",
+        "iata": "IND",
+        "icao": "KIND",
+        "terminal": null,
+        "gate": "B20",
+        "delay": 31,
+        "scheduled": "2025-06-07T05:30:00+00:00",
+        "estimated": "2025-06-07T05:30:00+00:00",
+        "actual": "2025-06-07T06:00:00+00:00",
+        "estimated_runway": "2025-06-07T06:00:00+00:00",
+        "actual_runway": "2025-06-07T06:00:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "B",
+        "gate": "C35",
+        "baggage": "14",
+        "scheduled": "2025-06-07T07:40:00+00:00",
+        "delay": 3,
+        "estimated": "2025-06-07T07:41:00+00:00",
+        "actual": "2025-06-07T07:43:00+00:00",
+        "estimated_runway": "2025-06-07T07:43:00+00:00",
+        "actual_runway": "2025-06-07T07:43:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1157",
+        "iata": "WN1157",
+        "icao": "SWA1157",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8544Z",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABB930"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "B",
+        "gate": "B5",
+        "delay": 23,
+        "scheduled": "2025-06-07T08:50:00+00:00",
+        "estimated": "2025-06-07T08:50:00+00:00",
+        "actual": "2025-06-07T09:13:00+00:00",
+        "estimated_runway": "2025-06-07T09:13:00+00:00",
+        "actual_runway": "2025-06-07T09:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F79",
+        "baggage": "4",
+        "scheduled": "2025-06-07T11:25:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T11:18:00+00:00",
+        "actual": "2025-06-07T11:19:00+00:00",
+        "estimated_runway": "2025-06-07T11:19:00+00:00",
+        "actual_runway": "2025-06-07T11:19:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2523",
+        "iata": "AA2523",
+        "icao": "AAL2523",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N909AN",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "AC90A8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "E",
+        "gate": "E6",
+        "delay": 7,
+        "scheduled": "2025-06-07T08:10:00+00:00",
+        "estimated": "2025-06-07T08:10:00+00:00",
+        "actual": "2025-06-07T08:17:00+00:00",
+        "estimated_runway": "2025-06-07T08:17:00+00:00",
+        "actual_runway": "2025-06-07T08:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E71",
+        "baggage": "10",
+        "scheduled": "2025-06-07T10:56:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:25:00+00:00",
+        "actual": "2025-06-07T10:27:00+00:00",
+        "estimated_runway": "2025-06-07T10:27:00+00:00",
+        "actual_runway": "2025-06-07T10:27:00+00:00"
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "1473",
+        "iata": "F91473",
+        "icao": "FFT1473",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N615FR",
+        "iata": "A21N",
+        "icao": "A21N",
+        "icao24": "A801DE"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Buffalo Niagara International",
+        "timezone": "America/New_York",
+        "iata": "BUF",
+        "icao": "KBUF",
+        "terminal": null,
+        "gate": "16",
+        "delay": 5,
+        "scheduled": "2025-06-07T08:25:00+00:00",
+        "estimated": "2025-06-07T08:25:00+00:00",
+        "actual": "2025-06-07T08:29:00+00:00",
+        "estimated_runway": "2025-06-07T08:29:00+00:00",
+        "actual_runway": "2025-06-07T08:29:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C33",
+        "baggage": "14",
+        "scheduled": "2025-06-07T11:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:44:00+00:00",
+        "actual": "2025-06-07T10:46:00+00:00",
+        "estimated_runway": "2025-06-07T10:46:00+00:00",
+        "actual_runway": "2025-06-07T10:46:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4492",
+        "iata": "WN4492",
+        "icao": "SWA4492",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N431WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A528D6"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Ronald Reagan Washington National Airport",
+        "timezone": "America/New_York",
+        "iata": "DCA",
+        "icao": "KDCA",
+        "terminal": "2",
+        "gate": "D41",
+        "delay": 2,
+        "scheduled": "2025-06-07T08:19:00+00:00",
+        "estimated": "2025-06-07T08:19:00+00:00",
+        "actual": "2025-06-07T08:21:00+00:00",
+        "estimated_runway": "2025-06-07T08:21:00+00:00",
+        "actual_runway": "2025-06-07T08:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F81",
+        "baggage": "4",
+        "scheduled": "2025-06-07T10:38:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:11:00+00:00",
+        "actual": "2025-06-07T10:13:00+00:00",
+        "estimated_runway": "2025-06-07T10:13:00+00:00",
+        "actual_runway": "2025-06-07T10:13:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "1212",
+        "iata": "AA1212",
+        "icao": "AAL1212",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N724UW",
+        "iata": "A319",
+        "icao": "A319",
+        "icao24": "A9B43F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "B4",
+        "delay": 11,
+        "scheduled": "2025-06-07T08:35:00+00:00",
+        "estimated": "2025-06-07T08:35:00+00:00",
+        "actual": "2025-06-07T08:45:00+00:00",
+        "estimated_runway": "2025-06-07T08:45:00+00:00",
+        "actual_runway": "2025-06-07T08:45:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E64",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:01:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:41:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6410",
+        "iata": "LA6410",
+        "icao": "LAN6410",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1227",
+          "flight_iata": "dl1227",
+          "flight_icao": "dal1227"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "B4",
+        "delay": 11,
+        "scheduled": "2025-06-07T08:35:00+00:00",
+        "estimated": "2025-06-07T08:35:00+00:00",
+        "actual": "2025-06-07T08:45:00+00:00",
+        "estimated_runway": "2025-06-07T08:45:00+00:00",
+        "actual_runway": "2025-06-07T08:45:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E64",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:01:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:41:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "WestJet",
+        "iata": "WS",
+        "icao": "WJA"
+      },
+      "flight": {
+        "number": "8704",
+        "iata": "WS8704",
+        "icao": "WJA8704",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1227",
+          "flight_iata": "dl1227",
+          "flight_icao": "dal1227"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hartsfield-jackson Atlanta International",
+        "timezone": "America/New_York",
+        "iata": "ATL",
+        "icao": "KATL",
+        "terminal": "S",
+        "gate": "B4",
+        "delay": 11,
+        "scheduled": "2025-06-07T08:35:00+00:00",
+        "estimated": "2025-06-07T08:35:00+00:00",
+        "actual": "2025-06-07T08:45:00+00:00",
+        "estimated_runway": "2025-06-07T08:45:00+00:00",
+        "actual_runway": "2025-06-07T08:45:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E64",
+        "baggage": "7",
+        "scheduled": "2025-06-07T10:01:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:41:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "1227",
+        "iata": "DL1227",
+        "icao": "DAL1227",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N685DA",
+        "iata": "B752",
+        "icao": "B752",
+        "icao24": "A91616"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "George Bush Intercontinental",
+        "timezone": "America/Chicago",
+        "iata": "IAH",
+        "icao": "KIAH",
+        "terminal": "C",
+        "gate": "44",
+        "delay": 20,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:40:00+00:00",
+        "estimated_runway": "2025-06-07T07:40:00+00:00",
+        "actual_runway": "2025-06-07T07:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A6",
+        "baggage": "2",
+        "scheduled": "2025-06-07T10:42:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:25:00+00:00",
+        "actual": "2025-06-07T10:24:00+00:00",
+        "estimated_runway": "2025-06-07T10:24:00+00:00",
+        "actual_runway": "2025-06-07T10:24:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "2260",
+        "iata": "UA2260",
+        "icao": "UAL2260",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N37263",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "A43E7F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "cancelled",
+      "departure": {
+        "airport": "Trenton Mercer Airport",
+        "timezone": "America/New_York",
+        "iata": "TTN",
+        "icao": "KTTN",
+        "terminal": null,
+        "gate": "2",
+        "delay": 5,
+        "scheduled": "2025-06-07T08:45:00+00:00",
+        "estimated": "2025-06-07T08:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E74",
+        "baggage": "10",
+        "scheduled": "2025-06-07T11:29:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "4171",
+        "iata": "F94171",
+        "icao": "FFT4171",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pensacola International Airport",
+        "timezone": "America/Chicago",
+        "iata": "PNS",
+        "icao": "KPNS",
+        "terminal": null,
+        "gate": "11",
+        "delay": 6,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:26:00+00:00",
+        "estimated_runway": "2025-06-07T07:26:00+00:00",
+        "actual_runway": "2025-06-07T07:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A3",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:43:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "Silver Airways",
+        "iata": "3M",
+        "icao": "SIL"
+      },
+      "flight": {
+        "number": "82",
+        "iata": "3M82",
+        "icao": "SIL82",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N406SV",
+        "iata": "AT46",
+        "icao": "AT46",
+        "icao24": "A4C48F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pensacola International Airport",
+        "timezone": "America/Chicago",
+        "iata": "PNS",
+        "icao": "KPNS",
+        "terminal": null,
+        "gate": "11",
+        "delay": 6,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:26:00+00:00",
+        "estimated_runway": "2025-06-07T07:26:00+00:00",
+        "actual_runway": "2025-06-07T07:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A3",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:43:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "3082",
+        "iata": "UA3082",
+        "icao": "UAL3082",
+        "codeshared": {
+          "airline_name": "silver airways",
+          "airline_iata": "3m",
+          "airline_icao": "sil",
+          "flight_number": "82",
+          "flight_iata": "3m82",
+          "flight_icao": "sil82"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pensacola International Airport",
+        "timezone": "America/Chicago",
+        "iata": "PNS",
+        "icao": "KPNS",
+        "terminal": null,
+        "gate": "11",
+        "delay": 6,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:26:00+00:00",
+        "estimated_runway": "2025-06-07T07:26:00+00:00",
+        "actual_runway": "2025-06-07T07:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A3",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:43:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "Copa Airlines",
+        "iata": "CM",
+        "icao": "CMP"
+      },
+      "flight": {
+        "number": "5082",
+        "iata": "CM5082",
+        "icao": "CMP5082",
+        "codeshared": {
+          "airline_name": "silver airways",
+          "airline_iata": "3m",
+          "airline_icao": "sil",
+          "flight_number": "82",
+          "flight_iata": "3m82",
+          "flight_icao": "sil82"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Pensacola International Airport",
+        "timezone": "America/Chicago",
+        "iata": "PNS",
+        "icao": "KPNS",
+        "terminal": null,
+        "gate": "11",
+        "delay": 6,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:26:00+00:00",
+        "estimated_runway": "2025-06-07T07:26:00+00:00",
+        "actual_runway": "2025-06-07T07:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A3",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:43:00+00:00",
+        "actual": "2025-06-07T09:42:00+00:00",
+        "estimated_runway": "2025-06-07T09:42:00+00:00",
+        "actual_runway": "2025-06-07T09:42:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "5482",
+        "iata": "B65482",
+        "icao": "JBU5482",
+        "codeshared": {
+          "airline_name": "silver airways",
+          "airline_iata": "3m",
+          "airline_icao": "sil",
+          "flight_number": "82",
+          "flight_iata": "3m82",
+          "flight_icao": "sil82"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Nashville International",
+        "timezone": "America/Chicago",
+        "iata": "BNA",
+        "icao": "KBNA",
+        "terminal": null,
+        "gate": "C3",
+        "delay": 13,
+        "scheduled": "2025-06-07T09:00:00+00:00",
+        "estimated": "2025-06-07T09:00:00+00:00",
+        "actual": "2025-06-07T09:13:00+00:00",
+        "estimated_runway": "2025-06-07T09:13:00+00:00",
+        "actual_runway": "2025-06-07T09:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C40",
+        "baggage": "15",
+        "scheduled": "2025-06-07T11:50:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T11:36:00+00:00",
+        "actual": "2025-06-07T11:35:00+00:00",
+        "estimated_runway": "2025-06-07T11:35:00+00:00",
+        "actual_runway": "2025-06-07T11:35:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1758",
+        "iata": "WN1758",
+        "icao": "SWA1758",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N242WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A2396E"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Nashville International",
+        "timezone": "America/Chicago",
+        "iata": "BNA",
+        "icao": "KBNA",
+        "terminal": null,
+        "gate": "C15",
+        "delay": 2,
+        "scheduled": "2025-06-07T09:01:00+00:00",
+        "estimated": "2025-06-07T09:01:00+00:00",
+        "actual": "2025-06-07T09:02:00+00:00",
+        "estimated_runway": "2025-06-07T09:02:00+00:00",
+        "actual_runway": "2025-06-07T09:02:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F81",
+        "baggage": "4",
+        "scheduled": "2025-06-07T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T11:24:00+00:00",
+        "actual": "2025-06-07T11:26:00+00:00",
+        "estimated_runway": "2025-06-07T11:26:00+00:00",
+        "actual_runway": "2025-06-07T11:26:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "3791",
+        "iata": "AA3791",
+        "icao": "AAL3791",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N292NN",
+        "iata": "E75L",
+        "icao": "E75L",
+        "icao24": "A2FE21"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dallas/Fort Worth International",
+        "timezone": "America/Chicago",
+        "iata": "DFW",
+        "icao": "KDFW",
+        "terminal": "C",
+        "gate": "C24",
+        "delay": 31,
+        "scheduled": "2025-06-07T08:41:00+00:00",
+        "estimated": "2025-06-07T08:41:00+00:00",
+        "actual": "2025-06-07T09:12:00+00:00",
+        "estimated_runway": "2025-06-07T09:12:00+00:00",
+        "actual_runway": "2025-06-07T09:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F80",
+        "baggage": "4",
+        "scheduled": "2025-06-07T12:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:10:00+00:00",
+        "actual": "2025-06-07T12:10:00+00:00",
+        "estimated_runway": "2025-06-07T12:10:00+00:00",
+        "actual_runway": "2025-06-07T12:10:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2784",
+        "iata": "AA2784",
+        "icao": "AAL2784",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N343PN",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "A3C9C5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "3",
+        "gate": "A16",
+        "delay": 33,
+        "scheduled": "2025-06-07T07:45:00+00:00",
+        "estimated": "2025-06-07T07:45:00+00:00",
+        "actual": "2025-06-07T08:17:00+00:00",
+        "estimated_runway": "2025-06-07T08:17:00+00:00",
+        "actual_runway": "2025-06-07T08:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F85",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:40:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:38:00+00:00",
+        "actual": "2025-06-07T10:38:00+00:00",
+        "estimated_runway": "2025-06-07T10:38:00+00:00",
+        "actual_runway": "2025-06-07T10:38:00+00:00"
+      },
+      "airline": {
+        "name": "WestJet",
+        "iata": "WS",
+        "icao": "WJA"
+      },
+      "flight": {
+        "number": "1246",
+        "iata": "WS1246",
+        "icao": "WJA1246",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "C-FZRM",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "C043CB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "3",
+        "gate": "A16",
+        "delay": 33,
+        "scheduled": "2025-06-07T07:45:00+00:00",
+        "estimated": "2025-06-07T07:45:00+00:00",
+        "actual": "2025-06-07T08:17:00+00:00",
+        "estimated_runway": "2025-06-07T08:17:00+00:00",
+        "actual_runway": "2025-06-07T08:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F85",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:40:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:38:00+00:00",
+        "actual": "2025-06-07T10:38:00+00:00",
+        "estimated_runway": "2025-06-07T10:38:00+00:00",
+        "actual_runway": "2025-06-07T10:38:00+00:00"
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "9728",
+        "iata": "KL9728",
+        "icao": "KLM9728",
+        "codeshared": {
+          "airline_name": "westjet",
+          "airline_iata": "ws",
+          "airline_icao": "wja",
+          "flight_number": "1246",
+          "flight_iata": "ws1246",
+          "flight_icao": "wja1246"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "3",
+        "gate": "A16",
+        "delay": 33,
+        "scheduled": "2025-06-07T07:45:00+00:00",
+        "estimated": "2025-06-07T07:45:00+00:00",
+        "actual": "2025-06-07T08:17:00+00:00",
+        "estimated_runway": "2025-06-07T08:17:00+00:00",
+        "actual_runway": "2025-06-07T08:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F85",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:40:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:38:00+00:00",
+        "actual": "2025-06-07T10:38:00+00:00",
+        "estimated_runway": "2025-06-07T10:38:00+00:00",
+        "actual_runway": "2025-06-07T10:38:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "7002",
+        "iata": "DL7002",
+        "icao": "DAL7002",
+        "codeshared": {
+          "airline_name": "westjet",
+          "airline_iata": "ws",
+          "airline_icao": "wja",
+          "flight_number": "1246",
+          "flight_iata": "ws1246",
+          "flight_icao": "wja1246"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Dallas/Fort Worth International",
+        "timezone": "America/Chicago",
+        "iata": "DFW",
+        "icao": "KDFW",
+        "terminal": "E",
+        "gate": "E31",
+        "delay": 19,
+        "scheduled": "2025-06-07T09:00:00+00:00",
+        "estimated": "2025-06-07T09:00:00+00:00",
+        "actual": "2025-06-07T09:18:00+00:00",
+        "estimated_runway": "2025-06-07T09:18:00+00:00",
+        "actual_runway": "2025-06-07T09:18:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A17",
+        "baggage": "12",
+        "scheduled": "2025-06-07T12:29:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:15:00+00:00",
+        "actual": "2025-06-07T12:15:00+00:00",
+        "estimated_runway": "2025-06-07T12:15:00+00:00",
+        "actual_runway": "2025-06-07T12:15:00+00:00"
+      },
+      "airline": {
+        "name": "Spirit Airlines",
+        "iata": "NK",
+        "icao": "NKS"
+      },
+      "flight": {
+        "number": "2586",
+        "iata": "NK2586",
+        "icao": "NKS2586",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N654NK",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A89CCC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "B13",
+        "delay": 11,
+        "scheduled": "2025-06-07T09:31:00+00:00",
+        "estimated": "2025-06-07T09:31:00+00:00",
+        "actual": "2025-06-07T09:41:00+00:00",
+        "estimated_runway": "2025-06-07T09:41:00+00:00",
+        "actual_runway": "2025-06-07T09:41:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F82",
+        "baggage": "4",
+        "scheduled": "2025-06-07T11:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:51:00+00:00",
+        "actual": "2025-06-07T10:54:00+00:00",
+        "estimated_runway": "2025-06-07T10:54:00+00:00",
+        "actual_runway": "2025-06-07T10:54:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2710",
+        "iata": "AA2710",
+        "icao": "AAL2710",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N559UW",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A722B1"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": "16",
+        "delay": 52,
+        "scheduled": "2025-06-07T14:30:00+00:00",
+        "estimated": "2025-06-07T14:30:00+00:00",
+        "actual": "2025-06-07T15:21:00+00:00",
+        "estimated_runway": "2025-06-07T15:21:00+00:00",
+        "actual_runway": "2025-06-07T15:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F88",
+        "baggage": "1",
+        "scheduled": "2025-06-07T19:25:00+00:00",
+        "delay": 19,
+        "estimated": "2025-06-07T19:42:00+00:00",
+        "actual": "2025-06-07T19:44:00+00:00",
+        "estimated_runway": "2025-06-07T19:44:00+00:00",
+        "actual_runway": "2025-06-07T19:44:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "129",
+        "iata": "VS129",
+        "icao": "VIR129",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "G-VLDY",
+        "iata": "A339",
+        "icao": "A339",
+        "icao24": "407E21"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tocumen International",
+        "timezone": "America/Panama",
+        "iata": "PTY",
+        "icao": "MPTO",
+        "terminal": "1",
+        "gate": "112",
+        "delay": 34,
+        "scheduled": "2025-06-07T09:04:00+00:00",
+        "estimated": "2025-06-07T09:04:00+00:00",
+        "actual": "2025-06-07T09:37:00+00:00",
+        "estimated_runway": "2025-06-07T09:37:00+00:00",
+        "actual_runway": "2025-06-07T09:37:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F85",
+        "baggage": "6",
+        "scheduled": "2025-06-07T13:26:00+00:00",
+        "delay": 4,
+        "estimated": "2025-06-07T13:27:00+00:00",
+        "actual": "2025-06-07T13:30:00+00:00",
+        "estimated_runway": "2025-06-07T13:30:00+00:00",
+        "actual_runway": "2025-06-07T13:30:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "7159",
+        "iata": "UA7159",
+        "icao": "UAL7159",
+        "codeshared": {
+          "airline_name": "copa airlines",
+          "airline_iata": "cm",
+          "airline_icao": "cmp",
+          "flight_number": "393",
+          "flight_iata": "cm393",
+          "flight_icao": "cmp393"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Tocumen International",
+        "timezone": "America/Panama",
+        "iata": "PTY",
+        "icao": "MPTO",
+        "terminal": "1",
+        "gate": "112",
+        "delay": 34,
+        "scheduled": "2025-06-07T09:04:00+00:00",
+        "estimated": "2025-06-07T09:04:00+00:00",
+        "actual": "2025-06-07T09:37:00+00:00",
+        "estimated_runway": "2025-06-07T09:37:00+00:00",
+        "actual_runway": "2025-06-07T09:37:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F85",
+        "baggage": "6",
+        "scheduled": "2025-06-07T13:26:00+00:00",
+        "delay": 4,
+        "estimated": "2025-06-07T13:27:00+00:00",
+        "actual": "2025-06-07T13:30:00+00:00",
+        "estimated_runway": "2025-06-07T13:30:00+00:00",
+        "actual_runway": "2025-06-07T13:30:00+00:00"
+      },
+      "airline": {
+        "name": "Copa Airlines",
+        "iata": "CM",
+        "icao": "CMP"
+      },
+      "flight": {
+        "number": "393",
+        "iata": "CM393",
+        "icao": "CMP393",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HP-1716CMP",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "0C205B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Newark Liberty International",
+        "timezone": "America/New_York",
+        "iata": "EWR",
+        "icao": "KEWR",
+        "terminal": "C",
+        "gate": "81",
+        "delay": 1,
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "estimated": "2025-06-07T10:00:00+00:00",
+        "actual": "2025-06-07T10:01:00+00:00",
+        "estimated_runway": "2025-06-07T10:01:00+00:00",
+        "actual_runway": "2025-06-07T10:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A8",
+        "baggage": "2",
+        "scheduled": "2025-06-07T12:57:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:24:00+00:00",
+        "actual": "2025-06-07T12:24:00+00:00",
+        "estimated_runway": "2025-06-07T12:24:00+00:00",
+        "actual_runway": "2025-06-07T12:24:00+00:00"
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "3230",
+        "iata": "AC3230",
+        "icao": "ACA3230",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "548",
+          "flight_iata": "ua548",
+          "flight_icao": "ual548"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Newark Liberty International",
+        "timezone": "America/New_York",
+        "iata": "EWR",
+        "icao": "KEWR",
+        "terminal": "C",
+        "gate": "81",
+        "delay": 1,
+        "scheduled": "2025-06-07T10:00:00+00:00",
+        "estimated": "2025-06-07T10:00:00+00:00",
+        "actual": "2025-06-07T10:01:00+00:00",
+        "estimated_runway": "2025-06-07T10:01:00+00:00",
+        "actual_runway": "2025-06-07T10:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A8",
+        "baggage": "2",
+        "scheduled": "2025-06-07T12:57:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:24:00+00:00",
+        "actual": "2025-06-07T12:24:00+00:00",
+        "estimated_runway": "2025-06-07T12:24:00+00:00",
+        "actual_runway": "2025-06-07T12:24:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "548",
+        "iata": "UA548",
+        "icao": "UAL548",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N67815",
+        "iata": "B739",
+        "icao": "B739",
+        "icao24": "A8FC09"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Gatwick",
+        "timezone": "Europe/London",
+        "iata": "LGW",
+        "icao": "EGKK",
+        "terminal": "S",
+        "gate": "33",
+        "delay": 126,
+        "scheduled": "2025-06-07T12:20:00+00:00",
+        "estimated": "2025-06-07T12:20:00+00:00",
+        "actual": "2025-06-07T14:25:00+00:00",
+        "estimated_runway": "2025-06-07T14:25:00+00:00",
+        "actual_runway": "2025-06-07T14:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F90",
+        "baggage": null,
+        "scheduled": "2025-06-07T16:50:00+00:00",
+        "delay": 100,
+        "estimated": "2025-06-07T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "7015",
+        "iata": "AA7015",
+        "icao": "AAL7015",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "2167",
+          "flight_iata": "ba2167",
+          "flight_icao": "baw2167"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D47",
+        "delay": 198,
+        "scheduled": "2025-06-07T08:16:00+00:00",
+        "estimated": "2025-06-07T08:16:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F80",
+        "baggage": "5",
+        "scheduled": "2025-06-07T09:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "2409",
+        "iata": "AA2409",
+        "icao": "AAL2409",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D47",
+        "delay": 198,
+        "scheduled": "2025-06-07T08:16:00+00:00",
+        "estimated": "2025-06-07T08:16:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F80",
+        "baggage": "5",
+        "scheduled": "2025-06-07T09:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Gol",
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "flight": {
+        "number": "6178",
+        "iata": "G36178",
+        "icao": "GLO6178",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "2409",
+          "flight_iata": "aa2409",
+          "flight_icao": "aal2409"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Ronald Reagan Washington National Airport",
+        "timezone": "America/New_York",
+        "iata": "DCA",
+        "icao": "KDCA",
+        "terminal": "1",
+        "gate": "A2",
+        "delay": 4,
+        "scheduled": "2025-06-07T06:55:00+00:00",
+        "estimated": "2025-06-07T06:55:00+00:00",
+        "actual": "2025-06-07T06:58:00+00:00",
+        "estimated_runway": "2025-06-07T06:58:00+00:00",
+        "actual_runway": "2025-06-07T06:58:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C33",
+        "baggage": "14",
+        "scheduled": "2025-06-07T09:15:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:50:00+00:00",
+        "actual": "2025-06-07T08:50:00+00:00",
+        "estimated_runway": "2025-06-07T08:50:00+00:00",
+        "actual_runway": "2025-06-07T08:50:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4765",
+        "iata": "WN4765",
+        "icao": "SWA4765",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8811L",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "AC2412"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "George Bush Intercontinental",
+        "timezone": "America/Chicago",
+        "iata": "IAH",
+        "icao": "KIAH",
+        "terminal": "C",
+        "gate": "44",
+        "delay": 20,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:40:00+00:00",
+        "estimated_runway": "2025-06-07T07:40:00+00:00",
+        "actual_runway": "2025-06-07T07:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A6",
+        "baggage": "2",
+        "scheduled": "2025-06-07T10:42:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:25:00+00:00",
+        "actual": "2025-06-07T10:24:00+00:00",
+        "estimated_runway": "2025-06-07T10:24:00+00:00",
+        "actual_runway": "2025-06-07T10:24:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Australia",
+        "iata": "VA",
+        "icao": "VOZ"
+      },
+      "flight": {
+        "number": "8221",
+        "iata": "VA8221",
+        "icao": "VOZ8221",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2260",
+          "flight_iata": "ua2260",
+          "flight_icao": "ual2260"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "George Bush Intercontinental",
+        "timezone": "America/Chicago",
+        "iata": "IAH",
+        "icao": "KIAH",
+        "terminal": "C",
+        "gate": "44",
+        "delay": 20,
+        "scheduled": "2025-06-07T07:20:00+00:00",
+        "estimated": "2025-06-07T07:20:00+00:00",
+        "actual": "2025-06-07T07:40:00+00:00",
+        "estimated_runway": "2025-06-07T07:40:00+00:00",
+        "actual_runway": "2025-06-07T07:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A6",
+        "baggage": "2",
+        "scheduled": "2025-06-07T10:42:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:25:00+00:00",
+        "actual": "2025-06-07T10:24:00+00:00",
+        "estimated_runway": "2025-06-07T10:24:00+00:00",
+        "actual_runway": "2025-06-07T10:24:00+00:00"
+      },
+      "airline": {
+        "name": "Air New Zealand",
+        "iata": "NZ",
+        "icao": "ANZ"
+      },
+      "flight": {
+        "number": "6921",
+        "iata": "NZ6921",
+        "icao": "ANZ6921",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "2260",
+          "flight_iata": "ua2260",
+          "flight_icao": "ual2260"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Detroit Metropolitan Wayne County",
+        "timezone": "America/Detroit",
+        "iata": "DTW",
+        "icao": "KDTW",
+        "terminal": "M",
+        "gate": "A68",
+        "delay": 23,
+        "scheduled": "2025-06-07T10:28:00+00:00",
+        "estimated": "2025-06-07T10:28:00+00:00",
+        "actual": "2025-06-07T10:51:00+00:00",
+        "estimated_runway": "2025-06-07T10:51:00+00:00",
+        "actual_runway": "2025-06-07T10:51:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E67",
+        "baggage": "7",
+        "scheduled": "2025-06-07T13:04:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:59:00+00:00",
+        "actual": "2025-06-07T12:59:00+00:00",
+        "estimated_runway": "2025-06-07T12:59:00+00:00",
+        "actual_runway": "2025-06-07T12:59:00+00:00"
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "1815",
+        "iata": "VS1815",
+        "icao": "VIR1815",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2587",
+          "flight_iata": "dl2587",
+          "flight_icao": "dal2587"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Detroit Metropolitan Wayne County",
+        "timezone": "America/Detroit",
+        "iata": "DTW",
+        "icao": "KDTW",
+        "terminal": "M",
+        "gate": "A68",
+        "delay": 23,
+        "scheduled": "2025-06-07T10:28:00+00:00",
+        "estimated": "2025-06-07T10:28:00+00:00",
+        "actual": "2025-06-07T10:51:00+00:00",
+        "estimated_runway": "2025-06-07T10:51:00+00:00",
+        "actual_runway": "2025-06-07T10:51:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E67",
+        "baggage": "7",
+        "scheduled": "2025-06-07T13:04:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:59:00+00:00",
+        "actual": "2025-06-07T12:59:00+00:00",
+        "estimated_runway": "2025-06-07T12:59:00+00:00",
+        "actual_runway": "2025-06-07T12:59:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2587",
+        "iata": "DL2587",
+        "icao": "DAL2587",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N120DN",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A0540A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Detroit Metropolitan Wayne County",
+        "timezone": "America/Detroit",
+        "iata": "DTW",
+        "icao": "KDTW",
+        "terminal": "M",
+        "gate": "A68",
+        "delay": 23,
+        "scheduled": "2025-06-07T10:28:00+00:00",
+        "estimated": "2025-06-07T10:28:00+00:00",
+        "actual": "2025-06-07T10:51:00+00:00",
+        "estimated_runway": "2025-06-07T10:51:00+00:00",
+        "actual_runway": "2025-06-07T10:51:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E67",
+        "baggage": "7",
+        "scheduled": "2025-06-07T13:04:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:59:00+00:00",
+        "actual": "2025-06-07T12:59:00+00:00",
+        "estimated_runway": "2025-06-07T12:59:00+00:00",
+        "actual_runway": "2025-06-07T12:59:00+00:00"
+      },
+      "airline": {
+        "name": "WestJet",
+        "iata": "WS",
+        "icao": "WJA"
+      },
+      "flight": {
+        "number": "8509",
+        "iata": "WS8509",
+        "icao": "WJA8509",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2587",
+          "flight_iata": "dl2587",
+          "flight_icao": "dal2587"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Hopkins International",
+        "timezone": "America/New_York",
+        "iata": "CLE",
+        "icao": "KCLE",
+        "terminal": null,
+        "gate": "A10",
+        "delay": 33,
+        "scheduled": "2025-06-07T09:00:00+00:00",
+        "estimated": "2025-06-07T09:00:00+00:00",
+        "actual": "2025-06-07T09:32:00+00:00",
+        "estimated_runway": "2025-06-07T09:32:00+00:00",
+        "actual_runway": "2025-06-07T09:32:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E74",
+        "baggage": "10",
+        "scheduled": "2025-06-07T11:27:00+00:00",
+        "delay": 4,
+        "estimated": "2025-06-07T11:28:00+00:00",
+        "actual": "2025-06-07T11:31:00+00:00",
+        "estimated_runway": "2025-06-07T11:31:00+00:00",
+        "actual_runway": "2025-06-07T11:31:00+00:00"
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "2683",
+        "iata": "F92683",
+        "icao": "FFT2683",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N652FR",
+        "iata": "A21N",
+        "icao": "A21N",
+        "icao24": "A894B5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Harry Reid International Airport",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAS",
+        "icao": "KLAS",
+        "terminal": "1",
+        "gate": "C23",
+        "delay": 26,
+        "scheduled": "2025-06-07T07:45:00+00:00",
+        "estimated": "2025-06-07T07:45:00+00:00",
+        "actual": "2025-06-07T08:11:00+00:00",
+        "estimated_runway": "2025-06-07T08:11:00+00:00",
+        "actual_runway": "2025-06-07T08:11:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C30",
+        "baggage": "15",
+        "scheduled": "2025-06-07T15:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T14:55:00+00:00",
+        "actual": "2025-06-07T14:57:00+00:00",
+        "estimated_runway": "2025-06-07T14:57:00+00:00",
+        "actual_runway": "2025-06-07T14:57:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "3293",
+        "iata": "WN3293",
+        "icao": "SWA3293",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N569WN",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A74A5A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Washington Dulles International",
+        "timezone": "America/New_York",
+        "iata": "IAD",
+        "icao": "KIAD",
+        "terminal": null,
+        "gate": null,
+        "delay": 32,
+        "scheduled": "2025-06-07T09:15:00+00:00",
+        "estimated": "2025-06-07T09:15:00+00:00",
+        "actual": "2025-06-07T09:46:00+00:00",
+        "estimated_runway": "2025-06-07T09:46:00+00:00",
+        "actual_runway": "2025-06-07T09:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-06-07T11:31:00+00:00",
+        "delay": 10,
+        "estimated": "2025-06-07T11:43:00+00:00",
+        "actual": "2025-06-07T11:41:00+00:00",
+        "estimated_runway": "2025-06-07T11:41:00+00:00",
+        "actual_runway": "2025-06-07T11:41:00+00:00"
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Baltimore/Washington International Thurgood Marshall",
+        "timezone": "America/New_York",
+        "iata": "BWI",
+        "icao": "KBWI",
+        "terminal": null,
+        "gate": "B3",
+        "delay": 24,
+        "scheduled": "2025-06-07T06:20:00+00:00",
+        "estimated": "2025-06-07T06:20:00+00:00",
+        "actual": "2025-06-07T06:43:00+00:00",
+        "estimated_runway": "2025-06-07T06:43:00+00:00",
+        "actual_runway": "2025-06-07T06:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "A",
+        "gate": "C34",
+        "baggage": "14",
+        "scheduled": "2025-06-07T08:45:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T08:37:00+00:00",
+        "actual": "2025-06-07T08:39:00+00:00",
+        "estimated_runway": "2025-06-07T08:39:00+00:00",
+        "actual_runway": "2025-06-07T08:39:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "1969",
+        "iata": "WN1969",
+        "icao": "SWA1969",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8530W",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABB4EA"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "B5",
+        "delay": 14,
+        "scheduled": "2025-06-07T06:00:00+00:00",
+        "estimated": "2025-06-07T06:00:00+00:00",
+        "actual": "2025-06-07T06:14:00+00:00",
+        "estimated_runway": "2025-06-07T06:14:00+00:00",
+        "actual_runway": "2025-06-07T06:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A8",
+        "baggage": "2",
+        "scheduled": "2025-06-07T09:46:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:19:00+00:00",
+        "actual": "2025-06-07T09:20:00+00:00",
+        "estimated_runway": "2025-06-07T09:20:00+00:00",
+        "actual_runway": "2025-06-07T09:20:00+00:00"
+      },
+      "airline": {
+        "name": "Copa Airlines",
+        "iata": "CM",
+        "icao": "CMP"
+      },
+      "flight": {
+        "number": "2845",
+        "iata": "CM2845",
+        "icao": "CMP2845",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "605",
+          "flight_iata": "ua605",
+          "flight_icao": "ual605"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Chicago O'hare International",
+        "timezone": "America/Chicago",
+        "iata": "ORD",
+        "icao": "KORD",
+        "terminal": "1",
+        "gate": "B5",
+        "delay": 14,
+        "scheduled": "2025-06-07T06:00:00+00:00",
+        "estimated": "2025-06-07T06:00:00+00:00",
+        "actual": "2025-06-07T06:14:00+00:00",
+        "estimated_runway": "2025-06-07T06:14:00+00:00",
+        "actual_runway": "2025-06-07T06:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A8",
+        "baggage": "2",
+        "scheduled": "2025-06-07T09:46:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T09:19:00+00:00",
+        "actual": "2025-06-07T09:20:00+00:00",
+        "estimated_runway": "2025-06-07T09:20:00+00:00",
+        "actual_runway": "2025-06-07T09:20:00+00:00"
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "3456",
+        "iata": "AC3456",
+        "icao": "ACA3456",
+        "codeshared": {
+          "airline_name": "united airlines",
+          "airline_iata": "ua",
+          "airline_icao": "ual",
+          "flight_number": "605",
+          "flight_iata": "ua605",
+          "flight_icao": "ual605"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Minneapolis - St. Paul International",
+        "timezone": "America/Chicago",
+        "iata": "MSP",
+        "icao": "KMSP",
+        "terminal": "2",
+        "gate": "H8",
+        "delay": 1,
+        "scheduled": "2025-06-07T06:42:00+00:00",
+        "estimated": "2025-06-07T06:42:00+00:00",
+        "actual": "2025-06-07T06:43:00+00:00",
+        "estimated_runway": "2025-06-07T06:43:00+00:00",
+        "actual_runway": "2025-06-07T06:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A15",
+        "baggage": "11",
+        "scheduled": "2025-06-07T10:50:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:20:00+00:00",
+        "actual": "2025-06-07T10:20:00+00:00",
+        "estimated_runway": "2025-06-07T10:20:00+00:00",
+        "actual_runway": "2025-06-07T10:20:00+00:00"
+      },
+      "airline": {
+        "name": "Sun Country Airlines",
+        "iata": "SY",
+        "icao": "SCX"
+      },
+      "flight": {
+        "number": "213",
+        "iata": "SY213",
+        "icao": "SCX213",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N856SY",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABBF49"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Gatwick",
+        "timezone": "Europe/London",
+        "iata": "LGW",
+        "icao": "EGKK",
+        "terminal": "S",
+        "gate": "33",
+        "delay": 126,
+        "scheduled": "2025-06-07T12:20:00+00:00",
+        "estimated": "2025-06-07T12:20:00+00:00",
+        "actual": "2025-06-07T14:25:00+00:00",
+        "estimated_runway": "2025-06-07T14:25:00+00:00",
+        "actual_runway": "2025-06-07T14:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F90",
+        "baggage": null,
+        "scheduled": "2025-06-07T16:50:00+00:00",
+        "delay": 100,
+        "estimated": "2025-06-07T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aer Lingus",
+        "iata": "EI",
+        "icao": "EIN"
+      },
+      "flight": {
+        "number": "8267",
+        "iata": "EI8267",
+        "icao": "EIN8267",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "2167",
+          "flight_iata": "ba2167",
+          "flight_icao": "baw2167"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Gatwick",
+        "timezone": "Europe/London",
+        "iata": "LGW",
+        "icao": "EGKK",
+        "terminal": "S",
+        "gate": "33",
+        "delay": 126,
+        "scheduled": "2025-06-07T12:20:00+00:00",
+        "estimated": "2025-06-07T12:20:00+00:00",
+        "actual": "2025-06-07T14:25:00+00:00",
+        "estimated_runway": "2025-06-07T14:25:00+00:00",
+        "actual_runway": "2025-06-07T14:25:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F90",
+        "baggage": null,
+        "scheduled": "2025-06-07T16:50:00+00:00",
+        "delay": 100,
+        "estimated": "2025-06-07T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Finnair",
+        "iata": "AY",
+        "icao": "FIN"
+      },
+      "flight": {
+        "number": "5457",
+        "iata": "AY5457",
+        "icao": "FIN5457",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "2167",
+          "flight_iata": "ba2167",
+          "flight_icao": "baw2167"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "LaGuardia",
+        "timezone": "America/New_York",
+        "iata": "LGA",
+        "icao": "KLGA",
+        "terminal": "C",
+        "gate": "72",
+        "delay": 30,
+        "scheduled": "2025-06-07T11:07:00+00:00",
+        "estimated": "2025-06-07T11:07:00+00:00",
+        "actual": "2025-06-07T11:36:00+00:00",
+        "estimated_runway": "2025-06-07T11:36:00+00:00",
+        "actual_runway": "2025-06-07T11:36:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E62",
+        "baggage": "7",
+        "scheduled": "2025-06-07T14:02:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T13:54:00+00:00",
+        "actual": "2025-06-07T13:55:00+00:00",
+        "estimated_runway": "2025-06-07T13:55:00+00:00",
+        "actual_runway": "2025-06-07T13:55:00+00:00"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "2195",
+        "iata": "DL2195",
+        "icao": "DAL2195",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N354DN",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A3F401"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "LaGuardia",
+        "timezone": "America/New_York",
+        "iata": "LGA",
+        "icao": "KLGA",
+        "terminal": "C",
+        "gate": "72",
+        "delay": 30,
+        "scheduled": "2025-06-07T11:07:00+00:00",
+        "estimated": "2025-06-07T11:07:00+00:00",
+        "actual": "2025-06-07T11:36:00+00:00",
+        "estimated_runway": "2025-06-07T11:36:00+00:00",
+        "actual_runway": "2025-06-07T11:36:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E62",
+        "baggage": "7",
+        "scheduled": "2025-06-07T14:02:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T13:54:00+00:00",
+        "actual": "2025-06-07T13:55:00+00:00",
+        "estimated_runway": "2025-06-07T13:55:00+00:00",
+        "actual_runway": "2025-06-07T13:55:00+00:00"
+      },
+      "airline": {
+        "name": "WestJet",
+        "iata": "WS",
+        "icao": "WJA"
+      },
+      "flight": {
+        "number": "8246",
+        "iata": "WS8246",
+        "icao": "WJA8246",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2195",
+          "flight_iata": "dl2195",
+          "flight_icao": "dal2195"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "C55",
+        "delay": 10,
+        "scheduled": "2025-06-07T09:30:00+00:00",
+        "estimated": "2025-06-07T09:30:00+00:00",
+        "actual": "2025-06-07T09:39:00+00:00",
+        "estimated_runway": "2025-06-07T09:39:00+00:00",
+        "actual_runway": "2025-06-07T09:39:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C31",
+        "baggage": "14",
+        "scheduled": "2025-06-07T14:55:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T14:38:00+00:00",
+        "actual": "2025-06-07T14:38:00+00:00",
+        "estimated_runway": "2025-06-07T14:38:00+00:00",
+        "actual_runway": "2025-06-07T14:38:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "324",
+        "iata": "WN324",
+        "icao": "SWA324",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N8676A",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "ABEC03"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "B55",
+        "delay": 13,
+        "scheduled": "2025-06-07T09:40:00+00:00",
+        "estimated": "2025-06-07T09:40:00+00:00",
+        "actual": "2025-06-07T09:53:00+00:00",
+        "estimated_runway": "2025-06-07T09:53:00+00:00",
+        "actual_runway": "2025-06-07T09:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A9",
+        "baggage": "2",
+        "scheduled": "2025-06-07T15:14:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T15:00:00+00:00",
+        "actual": "2025-06-07T15:00:00+00:00",
+        "estimated_runway": "2025-06-07T15:00:00+00:00",
+        "actual_runway": "2025-06-07T15:00:00+00:00"
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "2185",
+        "iata": "UA2185",
+        "icao": "UAL2185",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N27283",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "A2B176"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Canc\u00fan International",
+        "timezone": "America/Cancun",
+        "iata": "CUN",
+        "icao": "MMUN",
+        "terminal": "4",
+        "gate": "60",
+        "delay": 5,
+        "scheduled": "2025-06-07T10:20:00+00:00",
+        "estimated": "2025-06-07T10:20:00+00:00",
+        "actual": "2025-06-07T10:24:00+00:00",
+        "estimated_runway": "2025-06-07T10:24:00+00:00",
+        "actual_runway": "2025-06-07T10:24:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F87",
+        "baggage": "10",
+        "scheduled": "2025-06-07T13:14:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:48:00+00:00",
+        "actual": "2025-06-07T12:49:00+00:00",
+        "estimated_runway": "2025-06-07T12:49:00+00:00",
+        "actual_runway": "2025-06-07T12:49:00+00:00"
+      },
+      "airline": {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT"
+      },
+      "flight": {
+        "number": "168",
+        "iata": "F9168",
+        "icao": "FFT168",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N235FR",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A21BA0"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Eppley Airfield",
+        "timezone": "America/Chicago",
+        "iata": "OMA",
+        "icao": "KOMA",
+        "terminal": null,
+        "gate": "B16",
+        "delay": 8,
+        "scheduled": "2025-06-07T09:45:00+00:00",
+        "estimated": "2025-06-07T09:45:00+00:00",
+        "actual": "2025-06-07T09:53:00+00:00",
+        "estimated_runway": "2025-06-07T09:53:00+00:00",
+        "actual_runway": "2025-06-07T09:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "C31",
+        "baggage": "14",
+        "scheduled": "2025-06-07T13:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T13:20:00+00:00",
+        "actual": "2025-06-07T13:21:00+00:00",
+        "estimated_runway": "2025-06-07T13:21:00+00:00",
+        "actual_runway": "2025-06-07T13:21:00+00:00"
+      },
+      "airline": {
+        "name": "Southwest Airlines",
+        "iata": "WN",
+        "icao": "SWA"
+      },
+      "flight": {
+        "number": "4715",
+        "iata": "WN4715",
+        "icao": "SWA4715",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N246LV",
+        "iata": "B737",
+        "icao": "B737",
+        "icao24": "A24757"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Logan International",
+        "timezone": "America/New_York",
+        "iata": "BOS",
+        "icao": "KBOS",
+        "terminal": "C",
+        "gate": "C18",
+        "delay": 15,
+        "scheduled": "2025-06-07T11:25:00+00:00",
+        "estimated": "2025-06-07T11:25:00+00:00",
+        "actual": "2025-06-07T11:39:00+00:00",
+        "estimated_runway": "2025-06-07T11:39:00+00:00",
+        "actual_runway": "2025-06-07T11:39:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "A11",
+        "baggage": "3",
+        "scheduled": "2025-06-07T14:41:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T14:25:00+00:00",
+        "actual": "2025-06-07T14:26:00+00:00",
+        "estimated_runway": "2025-06-07T14:26:00+00:00",
+        "actual_runway": "2025-06-07T14:26:00+00:00"
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "691",
+        "iata": "B6691",
+        "icao": "JBU691",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N644JB",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "A874E1"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Charlotte Douglas",
+        "timezone": "America/New_York",
+        "iata": "CLT",
+        "icao": "KCLT",
+        "terminal": null,
+        "gate": "B15",
+        "delay": 24,
+        "scheduled": "2025-06-07T11:20:00+00:00",
+        "estimated": "2025-06-07T11:20:00+00:00",
+        "actual": "2025-06-07T11:43:00+00:00",
+        "estimated_runway": "2025-06-07T11:43:00+00:00",
+        "actual_runway": "2025-06-07T11:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "F84",
+        "baggage": "4",
+        "scheduled": "2025-06-07T13:06:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T12:51:00+00:00",
+        "actual": "2025-06-07T12:53:00+00:00",
+        "estimated_runway": "2025-06-07T12:53:00+00:00",
+        "actual_runway": "2025-06-07T12:53:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "436",
+        "iata": "AA436",
+        "icao": "AAL436",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N125AA",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "A06646"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-06-07",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "F57",
+        "delay": 13,
+        "scheduled": "2025-06-07T08:15:00+00:00",
+        "estimated": "2025-06-07T08:15:00+00:00",
+        "actual": "2025-06-07T08:27:00+00:00",
+        "estimated_runway": "2025-06-07T08:27:00+00:00",
+        "actual_runway": "2025-06-07T08:27:00+00:00"
+      },
+      "arrival": {
+        "airport": "Tampa International",
+        "timezone": "America/New_York",
+        "iata": "TPA",
+        "icao": "KTPA",
+        "terminal": "3",
+        "gate": "E72",
+        "baggage": "9",
+        "scheduled": "2025-06-07T11:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-06-07T10:49:00+00:00",
+        "actual": "2025-06-07T10:53:00+00:00",
+        "estimated_runway": "2025-06-07T10:53:00+00:00",
+        "actual_runway": "2025-06-07T10:53:00+00:00"
+      },
+      "airline": {
+        "name": "Air Canada Rouge",
+        "iata": "RV",
+        "icao": "ROU"
+      },
+      "flight": {
+        "number": "1654",
+        "iata": "RV1654",
+        "icao": "ROU1654",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    }
+  ]
+}

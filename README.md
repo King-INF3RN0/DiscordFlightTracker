@@ -1,20 +1,38 @@
 # Discord Flight Tracker
 
-A clean and configurable Discord bot that posts real-time aircraft arrival and departure information into your server based on scraped data from public sources like Flightradar24 and FlightAware.
+A clean and configurable Discord bot that posts aircraft arrival and departure information into your server using the [AviationStack API](https://aviationstack.com/).
 
 Ideal for student pilots, A&P students, ramp agents, and aviation enthusiasts who want timely flight updates during specific time windows.
 
 ---
 
+## ✈️ Version
+
+**Current Version:** `0.2.0`  
+Released: June 7, 2025
+
+---
+
+## 🆕 What's New in v0.2.0
+
+- ✅ **Switched from web scraping to AviationStack API**
+- 📥 **Uses IATA codes** (e.g., `TPA` not `KTPA`) to match AviationStack formatting
+- 💾 **Saves raw flight data** to `aviationstack_raw_dump.json` for easy testing/debugging
+- 📊 **Tracks API usage** using `api_call_counter.txt` to prevent exceeding monthly limits
+- 🐛 **More granular debug messages** to trace logic, filtered flights, and skips
+- 📦 **Improved error handling** if flight data or API keys are missing
+
+---
+
 ## Features
 
-- Daily automated flight brief at a configurable time (e.g., 5:45 PM)
-- Monitors specified airline flights (e.g., UPS or Delta) to/from any airport (e.g., KTPA or KSLC) in a given time window
-- Role-based pings based on day of week (Weekday, Saturday, Sunday)
-- Real-time ETA tracking and 10-minute alert pings before arrival/departure
-- Built-in fallback between Flightradar24 and FlightAware
-- Debug logging to a separate Discord channel with user mentions for failed data sources
-- Slash command support (`/check`) for manual flight checks
+- ✅ Daily automated flight brief at a configurable time (e.g., 5:45 PM)
+- ✅ Monitors specified airline flights (e.g., UPS or Delta) to/from any airport (e.g., TPA or ATL)
+- ✅ Role-based pings based on day of week (Weekday, Saturday, Sunday)
+- ✅ Real-time ETA tracking and 10-minute alert pings before arrival/departure (coming soon)
+- ✅ Slash command support (`/check`) for manual flight checks
+- ✅ Debug logging to a file and console
+- ✅ Local API call counter to help free users stay under the limit
 
 ---
 
@@ -42,19 +60,14 @@ pip install -r requirements.txt
 
 ### 4. Environment Variables
 
-- Copy the template file to `.env`:
-
-```bash
-copy env.template .env
-```
-
-- Open `.env` and add your Discord bot token:
+- Create a `.env` file with:
 
 ```
-DISCORD_TOKEN=your_token_here
+DISCORD_TOKEN=your_discord_bot_token
+AVIATIONSTACK_API_KEY=your_aviationstack_api_key
 ```
 
-> Never share or commit your `.env` file.
+> ⚠️ Never share or commit your `.env` file.
 
 ---
 
@@ -62,16 +75,33 @@ DISCORD_TOKEN=your_token_here
 
 Edit `config.json` to control:
 
-- Time windows
-- Tracked airport and airline codes
-- Discord channel and role IDs
-- User to @mention in case of fallback or scrape failure
+```json
+{
+  "general": {
+    "timezone": "US/Eastern",
+    "daily_post_time": "17:45",
+    "watch_interval_minutes": 10
+  },
+  "flight_tracking": {
+    "time_window": {
+      "start": "18:00",
+      "end": "00:59"
+    },
+    "airlines": ["5X"],
+    "airport": "TPA"
+  },
+  "discord": {
+    "main_channel_id": "YOUR_CHANNEL_ID"
+  }
+}
+```
+
+- `airlines`: Accepts IATA codes (e.g., "5X" for UPS, "DL" for Delta)
+- `airport`: Also IATA format (e.g., "TPA")
 
 ---
 
 ## Creating and Connecting Your Discord Bot
-
-Follow these steps to create a Discord bot, add it to your server, and connect it with this project:
 
 ### 1. Create a Bot in the Discord Developer Portal
 
@@ -84,11 +114,7 @@ Follow these steps to create a Discord bot, add it to your server, and connect i
 ### 2. Copy the Bot Token
 
 - In the **Bot** tab, click **"Reset Token"** if needed
-- Copy the token and paste it into `.env`:
-
-```
-DISCORD_TOKEN=your_token_here
-```
+- Copy the token and paste it into `.env`
 
 ---
 
@@ -97,18 +123,16 @@ DISCORD_TOKEN=your_token_here
 ### OAuth2 → URL Generator:
 
 #### Scopes:
-- [x] `bot`
-- [x] `applications.commands`
+- ✅ `bot`
+- ✅ `applications.commands`
 
 #### Bot Permissions:
-- [x] Send Messages
-- [x] Read Message History
-- [x] View Channels
-- [x] Mention Everyone
-- [x] Embed Links
-- [x] Attach Files
-
-Copy the generated URL, open it in your browser, and invite the bot to your server.
+- ✅ Send Messages
+- ✅ Read Message History
+- ✅ View Channels
+- ✅ Mention Everyone
+- ✅ Embed Links
+- ✅ Attach Files
 
 ---
 
@@ -122,22 +146,26 @@ Copy the generated URL, open it in your browser, and invite the bot to your serv
 
 ## Manual Commands
 
-After inviting and running your bot, type:
+### `/check`
 
-```
-/check
-```
-
-This will trigger a manual fetch of all flights in the configured time window and return them in Discord.
+Manually fetches flights in the configured time window and posts them to Discord.
 
 ---
 
-## Version
+## Debugging Tools
 
-See the [VERSION](./VERSION) file for the current release.
+- ✅ Raw API responses saved to `aviationstack_raw_dump.json`
+- ✅ Remaining API calls saved to `api_call_counter.txt`
+- ✅ Full debug logs printed to the terminal
+
+---
+
+## Version Info
+
+See the [VERSION](./VERSION) file.
 
 ---
 
 ## License
 
-MIT License. Contributions are welcome via pull request.
+MIT License. Contributions welcome!

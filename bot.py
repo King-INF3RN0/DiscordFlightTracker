@@ -4,7 +4,9 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 from config_loader import load_config, ConfigError
-from flight_scraper_fr24 import FlightScraperFR24
+from flight_scraper_api import FlightScraperAPI
+
+__version__ = "0.2.0"
 
 # Load environment variables
 load_dotenv(override=True)
@@ -26,7 +28,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f"[BOT] Logged in as {bot.user}")
+    print(f"[BOT] Logged in as {bot.user} (v{__version__})")
     try:
         synced = await bot.tree.sync()  # Global sync only
         print(f"[BOT] Synced {len(synced)} global slash commands")
@@ -38,25 +40,24 @@ async def on_ready():
     description="Manually check for upcoming tracked flights"
 )
 async def check_flights(interaction: discord.Interaction):
-    scraper = FlightScraperFR24(config)
+    await interaction.response.defer(thinking=True)
+    scraper = FlightScraperAPI(config)
     flights = scraper.fetch_flights()
 
     if not flights:
-        await interaction.response.send_message("No flights found in the configured time window.")
+        await interaction.followup.send("No flights found in the configured time window.")
         return
 
     response = "**Tracked Flights**\n\n"
-
     for flight in flights:
         fr24_link = f"https://www.flightradar24.com/{flight['flight_number']}"
         response += (
-        f"Flight: {flight['flight_number']} ({flight['aircraft_type']})\n"
-        f"From {flight['origin']} to {flight['destination']} | ETA: {flight['estimated_time']}\n"
-        f"Link: {fr24_link}\n\n"
-    )
+            f"Flight: {flight['flight_number']} ({flight['aircraft_type']})\n"
+            f"From {flight['origin']} to {flight['destination']} | ETA: {flight['estimated_time']}\n"
+            f"Link: {fr24_link}\n\n"
+        )
 
-
-    await interaction.response.send_message(response)
+    await interaction.followup.send(response)
 
 # Run the bot
 bot.run(TOKEN)
