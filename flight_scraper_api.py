@@ -1,6 +1,6 @@
 import os
 import requests
-from datetime import datetime, time
+from datetime import datetime, time, date
 from typing import List, Dict, Any
 import pytz
 import json
@@ -25,8 +25,15 @@ class FlightScraperAPI:
         try:
             local_tz = pytz.timezone(self.timezone)
             flight_dt = datetime.fromisoformat(flight_time_str.replace("Z", "+00:00"))
-            local_time = flight_dt.astimezone(local_tz).time()
-            return self.start_time <= local_time <= self.end_time
+            local_dt = flight_dt.astimezone(local_tz)
+            local_time = local_dt.time()
+            today = date.today()
+            if local_dt.date() < today:
+                return False
+            if self.start_time <= self.end_time:
+                return self.start_time <= local_time <= self.end_time
+            else:
+                return local_time >= self.start_time or local_time <= self.end_time
         except Exception as e:
             print(f"[DEBUG] Time parsing error: {e}")
             return False
@@ -50,31 +57,35 @@ class FlightScraperAPI:
             print("[ERROR] Missing AviationStack API key. Set AVIATIONSTACK_API_KEY in your .env file.")
             return []
 
-        params = {
-            "access_key": self.api_key,
-            "arr_iata": self.airport.lower(),
-            "limit": 100
-        }
+        all_flights = []
 
-        try:
-            print(f"[DEBUG] Sending API request to {self.api_url} with params: {params}")
-            response = requests.get(self.api_url, params=params)
-            response.raise_for_status()
-            self._update_api_call_counter()
-            data = response.json()
-            with open("aviationstack_raw_dump.json", "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2)
-        except requests.RequestException as e:
-            print(f"[API ERROR] {e}")
-            return []
+        for direction in ["arr_iata", "dep_iata"]:
+            params = {
+                "access_key": self.api_key,
+                direction: self.airport,
+                "limit": 100
+            }
 
-        if "data" not in data:
-            print("[API ERROR] Unexpected response format")
-            return []
+            try:
+                print(f"[DEBUG] Sending API request to {self.api_url} with params: {params}")
+                response = requests.get(self.api_url, params=params)
+                response.raise_for_status()
+                self._update_api_call_counter()
+                data = response.json()
+
+                with open(f"aviationstack_raw_dump_{direction}.json", "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2)
+
+                if "data" in data:
+                    all_flights.extend(data["data"])
+                else:
+                    print(f"[API ERROR] Unexpected format in response for {direction}")
+            except requests.RequestException as e:
+                print(f"[API ERROR] {e}")
 
         filtered = []
         print("[DEBUG] Examining flights...")
-        for flight in data["data"]:
+        for flight in all_flights:
             flight_info = flight.get("flight") or {}
             airline_info = flight.get("airline") or {}
             departure_info = flight.get("departure") or {}
@@ -83,19 +94,44 @@ class FlightScraperAPI:
 
             flight_number = flight_info.get("iata") or ""
             airline_code = airline_info.get("iata") or ""
-            origin = departure_info.get("icao") or ""
-            scheduled_time = arrival_info.get("scheduled") or ""
-            estimated_time = arrival_info.get("estimated") or ""
+            icao_code = airline_info.get("icao") or ""
+            dep_icao = departure_info.get("icao") or departure_info.get("iata") or ""
+            arr_icao = arrival_info.get("icao") or arrival_info.get("iata") or ""
+            scheduled_arrival = arrival_info.get("scheduled") or ""
+            estimated_arrival = arrival_info.get("estimated") or ""
+            scheduled_departure = departure_info.get("scheduled") or ""
+            estimated_departure = departure_info.get("estimated") or ""
             aircraft_type = aircraft_info.get("icao24") or ""
 
-            print(f"[DEBUG] Flight {flight_number} | Airline: {airline_code} | Scheduled: {scheduled_time} | Estimated: {estimated_time}")
+            direction = None
+            scheduled_time = ""
+            estimated_time = ""
+            origin = ""
+            destination = ""
 
-            if not all([flight_number, airline_code, origin, scheduled_time, estimated_time]):
+            if arr_icao.upper() == self.airport:
+                direction = "arrival"
+                scheduled_time = scheduled_arrival
+                estimated_time = estimated_arrival
+                origin = dep_icao
+                destination = arr_icao
+            elif dep_icao.upper() == self.airport:
+                direction = "departure"
+                scheduled_time = scheduled_departure
+                estimated_time = estimated_departure
+                origin = arr_icao
+                destination = dep_icao
+            else:
+                continue
+
+            print(f"[DEBUG] Flight {flight_number} | Airline: {airline_code}/{icao_code} | Scheduled: {scheduled_time} | Direction: {direction}")
+
+            if not all([flight_number, airline_code, origin, destination, scheduled_time, estimated_time]):
                 print("[DEBUG] Skipping: missing data")
                 continue
 
-            if airline_code.upper() not in self.airlines:
-                print(f"[DEBUG] Skipping: airline {airline_code} not in tracked list {self.airlines}")
+            if not any(code in self.airlines for code in [airline_code.upper(), icao_code.upper()]):
+                print(f"[DEBUG] Skipping: airline {airline_code}/{icao_code} not in tracked list {self.airlines}")
                 continue
 
             if not self._within_time_window(scheduled_time):
@@ -106,11 +142,13 @@ class FlightScraperAPI:
                 "flight_number": flight_number,
                 "aircraft_type": aircraft_type,
                 "origin": origin,
-                "destination": self.airport,
+                "destination": destination,
                 "scheduled_time": scheduled_time,
                 "estimated_time": estimated_time,
-                "direction": "arrival"
+                "direction": direction
             })
 
-        print(f"[DEBUG] Total flights returned by API: {len(data['data'])} | Tracked: {len(filtered)}")
+        filtered.sort(key=lambda f: f["scheduled_time"])
+
+        print(f"[DEBUG] Total flights returned by API: {len(all_flights)} | Tracked: {len(filtered)}")
         return filtered
